@@ -1,30 +1,26 @@
+
 # -*- coding: utf-8 -*-
-
-# Define here the models for your spider middleware
-#
-# See documentation in:
-# https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-import time
-import random
-from fake_useragent import UserAgent
-from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
+import scrapy
 from scrapy import signals
-from scrapy.http import HtmlResponse
-
-
-class RandomUserAgentMiddleware(object):
-    #随机更换user-agent
-    def __init__(self,crawler):
-        super(RandomUserAgentMiddleware,self).__init__()
-        self.ua = UserAgent()
-        self.ua_type = crawler.settings.get("RANDOM_UA_TYPE","random")
+from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
+import random
+ 
+ 
+ 
+class MyUserAgentMiddleware(UserAgentMiddleware):
+    '''
+    设置User-Agent
+    '''
+ 
+    def __init__(self, user_agent):
+        self.user_agent = user_agent
  
     @classmethod
-    def from_crawler(cls,crawler):
-        return cls(crawler)
+    def from_crawler(cls, crawler):
+        return cls(
+            user_agent=crawler.settings.get('USER_AGENTS_LIST')
+        )
  
-    def process_request(self,request,spider):
-        def get_ua():
-            return getattr(self.ua,self.ua_type)
-        request.headers.setdefault('User-Agent',get_ua())
-
+    def process_request(self, request, spider):
+        agent = random.choice(self.user_agent)
+        request.headers['User-Agent'] = agent

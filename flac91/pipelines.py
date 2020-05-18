@@ -33,12 +33,19 @@ class DownloadPipeline(object):
     #     file_path = os.path.join(directory, file_name)
     #     logging.info('Song:{name} downloaded to {path}'.format(name=item['song'], path=file_path))
     #     return file_path
+    def trim_file_name(self, name):
+        illegal = ['\\', '/', ':', '*', '?', '"', '<', '>', '|']
+        for i in illegal:
+            name = name.replace(i, '')
+        return name
 
     def process_item(self, item, spider):
         # 下载音乐文件
         if not item['download']:
-            logging.info('Song:{name} has no download url'.format(name=item['song']))
+            logging.info('Song:{name}-{album} has no download url'.format(name=item['song'], album=item['album']))
             return item
+        item['song'] = self.trim_file_name(item['song'])
+        item['album'] = self.trim_file_name(item['album'])
         # logging.info('Song:{name} download_url:{url}'.format(name=item['song'], url=item['download']))
         response = requests.get(item['download'],headers=item['cookie'])
         file_content = response.content
@@ -47,17 +54,23 @@ class DownloadPipeline(object):
             os.makedirs(directory)
         file_name = '{name}.{form}'.format(name=item['song'], form=item['file_format'])
         file_path = os.path.join(directory, file_name)
-        with open(file=file_path, mode='wb') as f:
-            f.write(file_content)
-        logging.info('Song:{name} downloaded to {path}'.format(name=item['song'], path=file_path))
+        if os.path.exists(file_path):
+            logging.info('Song:{name} already exists at {path}'.format(name=item['song'], path=file_path))
+        else:  
+            with open(file=file_path, mode='wb') as f:
+                f.write(file_content)
+            logging.info('Song:{name} downloaded to {path}'.format(name=item['song'], path=file_path))
         
         # 储存歌词文件
         if not item['lyrics']:
             return item
         lyrics_file_name = '{name}.txt'.format(name=item['song'])
         lyrics_file_path = os.path.join(directory, lyrics_file_name)
-        with open(file=lyrics_file_path, mode='w', encoding='utf-8') as f:
-            f.write(item['lyrics'])
-        logging.info('Lyrics:{name} downloaded to {path}'.format(name=item['song'], path=lyrics_file_path))
+        if os.path.exists(lyrics_file_path):
+            logging.info('Lyrics:{name} already exists at {path}'.format(name=item['song'], path=file_path))
+        else: 
+            with open(file=lyrics_file_path, mode='w', encoding='utf-8') as f:
+                f.write(item['lyrics'])
+            logging.info('Lyrics:{name} downloaded to {path}'.format(name=item['song'], path=lyrics_file_path))
 
         return item
