@@ -26,6 +26,8 @@ class SongItem(scrapy.Item):
         illegal = ['\\', '/', ':', '*', '?', '"', '<', '>', '|']
         for i in illegal:
             name = name.replace(i, '')
+        if name and name[-1] == '.':
+            name = name + 'et al' # windows文件夹末尾的.会自动消失
         return name
 
     def get_directory(self):
@@ -58,9 +60,9 @@ class SongItem(scrapy.Item):
         if not os.path.isdir(directory):
             try:
                 os.makedirs(directory)
-                self['directory'] = directory
             except Exception as e:
                 logging.error('Error while create directory {}'.format(e))
+                return False
         return True
 
     def song_file_existed(self):

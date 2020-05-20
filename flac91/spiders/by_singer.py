@@ -4,7 +4,6 @@ import scrapy
 import json
 import logging
 import ipdb
-from selenium import webdriver
 from scrapy.selector import Selector
 from ..items import SongItem
 from scrapy.http import Request
@@ -20,8 +19,9 @@ SINGERS = {
     'exo': '38578',
     '张震岳': '89',
     'aurora': '120734',
+    'Frédéric François Chopin': '15057',
 }
-SINGER = 'exo' # 要爬取的歌手
+SINGER = 'Frédéric François Chopin' # 要爬取的歌手
 SITE_URL = 'https://www.91flac.com'
 SINGER_URL = SITE_URL + '/singer/{id}/song'
 LOGIN_URL = SITE_URL + '/login'

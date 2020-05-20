@@ -4,7 +4,6 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-import os
 import logging
 import requests
 from scrapy.pipelines.files import FilesPipeline
@@ -23,6 +22,9 @@ class DownloadPipeline(object):
         response = requests.get(item['download'],headers=item['cookie'])
         file_content = response.content
         
+        if not item.check_directory():
+            return item
+
         file_path = item.get_song_path()
         with open(file=file_path, mode='wb') as f:
             f.write(file_content)
