@@ -1,0 +1,803 @@
+2020-05-20 15:40:53 [scrapy.utils.log] INFO: Scrapy 2.0.1 started (bot: flac91)
+2020-05-20 15:40:53 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 20.3.0, Python 3.6.2 |Continuum Analytics, Inc.| (default, Jul 20 2017, 12:30:02) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1f  31 Mar 2020), cryptography 2.9, Platform Windows-10-10.0.18362-SP0
+2020-05-20 15:40:53 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'flac91',
+ 'CONCURRENT_REQUESTS': 1,
+ 'DOWNLOAD_DELAY': 2,
+ 'LOG_FILE': 'spider.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'flac91.spiders',
+ 'SPIDER_MODULES': ['flac91.spiders']}
+2020-05-20 15:40:53 [scrapy.extensions.telnet] INFO: Telnet Password: 5f565ecb36c71789
+2020-05-20 15:40:53 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-20 15:40:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'flac91.middlewares.MyUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-20 15:40:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-20 15:40:54 [scrapy.middleware] INFO: Enabled item pipelines:
+['flac91.pipelines.DownloadPipeline']
+2020-05-20 15:40:54 [scrapy.core.engine] INFO: Spider opened
+2020-05-20 15:40:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-20 15:40:54 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-05-20 15:40:54 [root] INFO: start_requests
+2020-05-20 15:40:55 [root] INFO: post user form
+2020-05-20 15:41:36 [root] INFO: login succeed
+2020-05-20 15:41:36 [root] INFO: crawling https://www.91flac.com/singer/38578/song
+2020-05-20 15:41:36 [root] INFO: Song:으르렁(Growl) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\으르렁(Growl).flac
+2020-05-20 15:41:36 [root] INFO: Song:Baby, Don't Cry (인어의 눈물) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Baby, Don't Cry (인어의 눈물).flac
+2020-05-20 15:41:36 [root] INFO: Song:Lotto already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO - The 3rd Album Repackage\Lotto.flac
+2020-05-20 15:41:36 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Monster.flac
+2020-05-20 15:41:36 [root] INFO: Song:Power already exists at C:\Users\Jven\Desktop\Music\exo\THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage\Power.flac
+2020-05-20 15:41:42 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=2
+2020-05-20 15:41:42 [root] INFO: Song:Dancing King already exists at C:\Users\Jven\Desktop\Music\exo\Dancing King - SM STATION\Dancing King.flac
+2020-05-20 15:41:42 [root] INFO: Song:12월의 기적 already exists at C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (12月的奇迹 [韩文版])\12월의 기적.flac
+2020-05-20 15:41:42 [root] INFO: Song:약속 (EXO 2014) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\약속 (EXO 2014).flac
+2020-05-20 15:41:42 [root] INFO: Song:BIRD already exists at C:\Users\Jven\Desktop\Music\exo\BIRD\BIRD.mp3
+2020-05-20 15:41:42 [root] INFO: Song:오아시스 (Oasis) already exists at C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\오아시스 (Oasis).flac
+2020-05-20 15:41:42 [root] INFO: Song:3.6.5 already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\3.6.5.flac
+2020-05-20 15:41:42 [root] INFO: Song:Ya Ya Ya already exists at C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\Ya Ya Ya.flac
+2020-05-20 15:41:42 [root] INFO: Song:Non Stop already exists at C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\Non Stop.flac
+2020-05-20 15:41:42 [root] INFO: Song:XOXO already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\XOXO.flac
+2020-05-20 15:41:42 [root] INFO: Song:Universe already exists at C:\Users\Jven\Desktop\Music\exo\Universe - 겨울 스페셜 앨범, 2017 (Universe – Winter Special Album, 2017)\Universe.flac
+2020-05-20 15:41:42 [root] INFO: Song:日复一日 (Day After Day) already exists at C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\日复一日 (Day After Day).flac
+2020-05-20 15:41:42 [root] INFO: Song:불공평해 (Unfair) already exists at C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\불공평해 (Unfair).flac
+2020-05-20 15:41:42 [root] INFO: Song:Gravity already exists at C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\Gravity.flac
+2020-05-20 15:41:42 [root] INFO: Song:늑대와 미녀 (Wolf) (Chinese Ver) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\늑대와 미녀 (Wolf) (Chinese Ver).flac
+2020-05-20 15:41:42 [root] INFO: Song:지나갈 테니 (Been Through) already exists at C:\Users\Jven\Desktop\Music\exo\Universe - 겨울 스페셜 앨범, 2017 (Universe – Winter Special Album, 2017)\지나갈 테니 (Been Through).flac
+2020-05-20 15:41:42 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Monster.flac
+2020-05-20 15:41:42 [root] INFO: Song:Lucky One already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Lucky One.flac
+2020-05-20 15:41:42 [root] INFO: Song:宣告 (Love Shot) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE SHOT – The 5th Album Repackage\宣告 (Love Shot).flac
+2020-05-20 15:41:42 [root] INFO: Song:Sign already exists at C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\Sign.flac
+2020-05-20 15:41:42 [root] INFO: Song:狼与美女 already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\狼与美女.flac
+2020-05-20 15:41:42 [root] INFO: Song:좋아 좋아 already exists at C:\Users\Jven\Desktop\Music\exo\空\좋아 좋아.mp3
+2020-05-20 15:41:44 [root] INFO: Song:Baby, Don't Cry crawled
+2020-05-20 15:41:50 [root] INFO: Song:Baby, Don't Cry downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Baby, Don't Cry.flac
+2020-05-20 15:41:50 [root] INFO: Lyrics:Baby, Don't Cry downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Baby, Don't Cry.txt
+2020-05-20 15:41:51 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=3
+2020-05-20 15:41:51 [root] INFO: Song:Damage already exists at C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\Damage.flac
+2020-05-20 15:41:51 [root] INFO: Song:PLAYBOY already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\PLAYBOY.flac
+2020-05-20 15:41:51 [root] INFO: Song:EXODUS already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\EXODUS.flac
+2020-05-20 15:41:51 [root] INFO: Song:전야 (前夜) already exists at C:\Users\Jven\Desktop\Music\exo\THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage\전야 (前夜).flac
+2020-05-20 15:41:51 [root] INFO: Song:节奏 (Tempo) already exists at C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\节奏 (Tempo).flac
+2020-05-20 15:41:51 [root] INFO: Song:늑대와 미녀 (Wolf) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\늑대와 미녀 (Wolf).flac
+2020-05-20 15:41:51 [root] INFO: Song:狼与美女 (Wolf) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\狼与美女 (Wolf).flac
+2020-05-20 15:41:51 [root] INFO: Song:上瘾 already exists at C:\Users\Jven\Desktop\Music\exo\上瘾.mp3
+2020-05-20 15:41:51 [root] INFO: Song:Wait already exists at C:\Users\Jven\Desktop\Music\exo\LOVE SHOT – The 5th Album Repackage\Wait.flac
+2020-05-20 15:41:51 [root] INFO: Song:으르렁 (咆哮) (Live) already exists at C:\Users\Jven\Desktop\Music\exo\空\으르렁 (咆哮) (Live).mp3
+2020-05-20 15:41:51 [root] INFO: Song:Electric Kiss already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Electric Kiss.flac
+2020-05-20 15:41:51 [root] INFO: Song:피터팬 (Peter Pan) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\피터팬 (Peter Pan).flac
+2020-05-20 15:41:51 [root] INFO: Song:Baby, Don't Cry (인어의 눈물) (人鱼的眼泪) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\Baby, Don't Cry (인어의 눈물) (人鱼的眼泪).flac
+2020-05-20 15:41:51 [root] INFO: Song:Ko Ko Bop already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR - The 4th Album\Ko Ko Bop.flac
+2020-05-20 15:41:51 [root] INFO: Song:여기 있을게 (Smile On My Face) already exists at C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\여기 있을게 (Smile On My Face).flac
+2020-05-20 15:41:51 [root] INFO: Song:Drop That already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Drop That.flac
+2020-05-20 15:41:51 [root] INFO: Song:LIGHTSABER already exists at C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\LIGHTSABER.flac
+2020-05-20 15:41:51 [root] INFO: Song:기억을 걷는 밤 (Walk On Memories) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\기억을 걷는 밤 (Walk On Memories).flac
+2020-05-20 15:41:51 [root] INFO: Song:Let Out The Beast already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Let Out The Beast.flac
+2020-05-20 15:41:51 [root] INFO: Song:가끔 (With You) already exists at C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\가끔 (With You).flac
+2020-05-20 15:41:51 [root] INFO: Song:트라우마 (Trauma) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE SHOT – The 5th Album Repackage\트라우마 (Trauma).flac
+2020-05-20 15:41:51 [root] INFO: Song:Black Pearl already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Black Pearl.flac
+2020-05-20 15:41:51 [root] INFO: Song:For Life already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\For Life.flac
+2020-05-20 15:41:51 [root] INFO: Song:Cosmic Railway already exists at C:\Users\Jven\Desktop\Music\exo\COUNTDOWN\Cosmic Railway.mp3
+2020-05-20 15:41:51 [root] INFO: Song:후폭풍 (Bad Dream) already exists at C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\후폭풍 (Bad Dream).flac
+2020-05-20 15:41:51 [root] INFO: Song:Forever already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\Forever.flac
+2020-05-20 15:41:51 [root] INFO: Song:LIGHTSABER already exists at C:\Users\Jven\Desktop\Music\exo\LIGHTSABER (光剑)\LIGHTSABER.flac
+2020-05-20 15:41:51 [root] INFO: Song:너의 손짓 (Touch It) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\너의 손짓 (Touch It).flac
+2020-05-20 15:41:51 [root] INFO: Song:My Lady already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\My Lady.flac
+2020-05-20 15:41:51 [root] INFO: Song:다이아몬드 (Diamond) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\다이아몬드 (Diamond).flac
+2020-05-20 15:41:54 [scrapy.extensions.logstats] INFO: Crawled 8 pages (at 8 pages/min), scraped 1 items (at 1 items/min)
+2020-05-20 15:41:56 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=4
+2020-05-20 15:41:56 [root] INFO: Song:为心导航 (Universe) already exists at C:\Users\Jven\Desktop\Music\exo\Universe - 겨울 스페셜 앨범, 2017 (Universe – Winter Special Album, 2017)\为心导航 (Universe).flac
+2020-05-20 15:41:56 [root] INFO: Song:My Lady (Chinese Ver.) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\My Lady (Chinese Ver.).flac
+2020-05-20 15:41:56 [root] INFO: Song:EXODUS already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\EXODUS.flac
+2020-05-20 15:41:56 [root] INFO: Song:EL DORADO already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\EL DORADO.flac
+2020-05-20 15:41:56 [root] INFO: Song:FIRST LOVE already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\FIRST LOVE.flac
+2020-05-20 15:41:56 [root] INFO: Song:Baby (第一步) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Baby (第一步).flac
+2020-05-20 15:41:56 [root] INFO: Song:Christmas Day (圣诞节) already exists at C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (十二月的奇迹)\Christmas Day (圣诞节).flac
+2020-05-20 15:41:56 [root] INFO: Song:Heaven already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Heaven.flac
+2020-05-20 15:41:56 [root] INFO: Song:전야 (前夜) (The Eve) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\전야 (前夜) (The Eve).flac
+2020-05-20 15:41:56 [root] INFO: Song:Girl x Friend already exists at C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\Girl x Friend.flac
+2020-05-20 15:41:56 [root] INFO: Song:偏心 already exists at C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\偏心.flac
+2020-05-20 15:41:56 [root] INFO: Song:내가 미쳐 (Going Crazy) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\내가 미쳐 (Going Crazy).flac
+2020-05-20 15:41:56 [root] INFO: Song:EL DORADO (黄金国) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\EL DORADO (黄金国).flac
+2020-05-20 15:41:56 [root] INFO: Song:Artificial Love already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Artificial Love.flac
+2020-05-20 15:41:56 [root] INFO: Song:Electric Kiss already exists at C:\Users\Jven\Desktop\Music\exo\COUNTDOWN\Electric Kiss.flac
+2020-05-20 15:41:56 [root] INFO: Song:Falling For You already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\Falling For You.flac
+2020-05-20 15:41:56 [root] INFO: Song:LOVE ME RIGHT (漫游宇宙) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\LOVE ME RIGHT (漫游宇宙).flac
+2020-05-20 15:41:56 [root] INFO: Song:백색소음 (White Noise) already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\백색소음 (White Noise).flac
+2020-05-20 15:41:56 [root] INFO: Song:Christmas Day already exists at C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (12月的奇迹 [韩文版])\Christmas Day.flac
+2020-05-20 15:41:56 [root] INFO: Song:Fall already exists at C:\Users\Jven\Desktop\Music\exo\Universe - 겨울 스페셜 앨범, 2017 (Universe – Winter Special Album, 2017)\Fall.flac
+2020-05-20 15:41:56 [root] INFO: Song:유성우(Lady Luck) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\유성우(Lady Luck).flac
+2020-05-20 15:41:56 [root] INFO: Song:TRANSFORMER already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\TRANSFORMER.flac
+2020-05-20 15:41:56 [root] INFO: Song:咆哮 (Growl) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\咆哮 (Growl).flac
+2020-05-20 15:41:56 [root] INFO: Song:Sweet Lies already exists at C:\Users\Jven\Desktop\Music\exo\THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage\Sweet Lies.flac
+2020-05-20 15:41:56 [root] INFO: Song:TENDER LOVE already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\TENDER LOVE.flac
+2020-05-20 15:41:56 [root] INFO: Song:발자국 (On the snow) already exists at C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\발자국 (On the snow).flac
+2020-05-20 15:41:56 [root] INFO: Song:My Turn To Cry (爱离开) already exists at C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (十二月的奇迹)\My Turn To Cry (爱离开).flac
+2020-05-20 15:41:56 [root] INFO: Song:What U do? already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\What U do.flac
+2020-05-20 15:41:56 [root] INFO: Song:Baby already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Baby.flac
+2020-05-20 15:41:56 [root] INFO: Song:Drop That already exists at C:\Users\Jven\Desktop\Music\exo\Love Me Right ~romantic universe~\Drop That.flac
+2020-05-20 15:41:59 [root] INFO: Song:Baby You Are crawled
+2020-05-20 15:42:04 [root] INFO: Song:Baby You Are downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\Baby You Are.flac
+2020-05-20 15:42:04 [root] INFO: Lyrics:Baby You Are downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\Baby You Are.txt
+2020-05-20 15:42:04 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=5
+2020-05-20 15:42:04 [root] INFO: Song:부메랑 (Boomerang) already exists at C:\Users\Jven\Desktop\Music\exo\THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage\부메랑 (Boomerang).flac
+2020-05-20 15:42:04 [root] INFO: Song:Good Night already exists at C:\Users\Jven\Desktop\Music\exo\Universe - 겨울 스페셜 앨범, 2017 (Universe – Winter Special Album, 2017)\Good Night.flac
+2020-05-20 15:42:04 [root] INFO: Song:破风 (The Eve) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR - The 4th Album\破风 (The Eve).flac
+2020-05-20 15:42:04 [root] INFO: Song:Lights Out already exists at C:\Users\Jven\Desktop\Music\exo\Universe - 겨울 스페셜 앨범, 2017 (Universe – Winter Special Album, 2017)\Lights Out.flac
+2020-05-20 15:42:04 [root] INFO: Song:月光(moonlight) already exists at C:\Users\Jven\Desktop\Music\exo\空\月光(moonlight).mp3
+2020-05-20 15:42:04 [root] INFO: Song:유리어항 (One and Only) already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\유리어항 (One and Only).flac
+2020-05-20 15:42:04 [root] INFO: Song:The Star (星) already exists at C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (十二月的奇迹)\The Star (星).flac
+2020-05-20 15:42:04 [root] INFO: Song:For Life already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\For Life.flac
+2020-05-20 15:42:04 [root] INFO: Song:Stay already exists at C:\Users\Jven\Desktop\Music\exo\Universe - 겨울 스페셜 앨범, 2017 (Universe – Winter Special Album, 2017)\Stay.flac
+2020-05-20 15:42:04 [root] INFO: Song:My Turn to Cry already exists at C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (12月的奇迹 [韩文版])\My Turn to Cry.flac
+2020-05-20 15:42:04 [root] INFO: Song:소름 (Chill) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\소름 (Chill).flac
+2020-05-20 15:42:04 [root] INFO: Song:EL DORADO already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\EL DORADO.flac
+2020-05-20 15:42:04 [root] INFO: Song:PLAYBOY (坏男孩) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\PLAYBOY (坏男孩).flac
+2020-05-20 15:42:04 [root] INFO: Song:咆哮 + 上瘾 already exists at C:\Users\Jven\Desktop\Music\exo\咆哮 + 上瘾.mp3
+2020-05-20 15:42:04 [root] INFO: Song:一生一事 (For Life) already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\一生一事 (For Life).flac
+2020-05-20 15:42:04 [root] INFO: Song:两个视线, 一个视线 (What If..) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\两个视线, 一个视线 (What If..).flac
+2020-05-20 15:42:04 [root] INFO: Song:Girl x Friend (女 x 友) already exists at C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\Girl x Friend (女 x 友).flac
+2020-05-20 15:42:04 [root] INFO: Song:BEAUTIFUL already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\BEAUTIFUL.flac
+2020-05-20 15:42:04 [root] INFO: Song:脚印 (On the snow) already exists at C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\脚印 (On the snow).flac
+2020-05-20 15:42:04 [root] INFO: Song:시선 둘, 시선 하나 (What If..) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\시선 둘, 시선 하나 (What If..).flac
+2020-05-20 15:42:04 [root] INFO: Song:FIRST LOVE (初恋) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\FIRST LOVE (初恋).flac
+2020-05-20 15:42:04 [root] INFO: Song:梦回暮夜 (Walk On Memories) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR - The 4th Album\梦回暮夜 (Walk On Memories).flac
+2020-05-20 15:42:04 [root] INFO: Song:CALL ME BABY already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\CALL ME BABY.flac
+2020-05-20 15:42:04 [root] INFO: Song:流星雨 (Lady Luck) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\流星雨 (Lady Luck).flac
+2020-05-20 15:42:04 [root] INFO: Song:超音力 (Power) already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\超音力 (Power).flac
+2020-05-20 15:42:04 [root] INFO: Song:Power already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Power.flac
+2020-05-20 15:42:04 [root] INFO: Song:The Star already exists at C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (12月的奇迹 [韩文版])\The Star.flac
+2020-05-20 15:42:04 [root] INFO: Song:MY ANSWER already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\MY ANSWER.flac
+2020-05-20 15:42:04 [root] INFO: Song:Power already exists at C:\Users\Jven\Desktop\Music\exo\Power (Remixes) - SM STATION\Power.flac
+2020-05-20 15:42:04 [root] INFO: Song:Love, Love, Love already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\Love, Love, Love.flac
+2020-05-20 15:42:09 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=6
+2020-05-20 15:42:09 [root] INFO: Song:MY ANSWER (我的答案) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\MY ANSWER (我的答案).flac
+2020-05-20 15:42:09 [root] INFO: Song:Coming Over already exists at C:\Users\Jven\Desktop\Music\exo\Coming Over\Coming Over.mp3
+2020-05-20 15:42:09 [root] INFO: Song:Run This already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Run This.flac
+2020-05-20 15:42:09 [root] INFO: Song:피터팬 already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\피터팬.flac
+2020-05-20 15:42:09 [root] INFO: Song:Run This already exists at C:\Users\Jven\Desktop\Music\exo\Coming Over\Run This.mp3
+2020-05-20 15:42:09 [root] INFO: Song:Call me baby already exists at C:\Users\Jven\Desktop\Music\exo\2015 KBS 가요대축제\Call me baby.mp3
+2020-05-20 15:42:09 [root] INFO: Song:PLAYBOY already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\PLAYBOY.flac
+2020-05-20 15:42:09 [root] INFO: Song:Stronger already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Stronger.flac
+2020-05-20 15:42:09 [root] INFO: Song:TRANSFORMER (变形女) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\TRANSFORMER (变形女).flac
+2020-05-20 15:42:09 [root] INFO: Song:HURT (伤害) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\HURT (伤害).flac
+2020-05-20 15:42:09 [root] INFO: Song:BEAUTIFUL (美) already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\BEAUTIFUL (美).flac
+2020-05-20 15:42:09 [root] INFO: Song:Lucky already exists at C:\Users\Jven\Desktop\Music\exo\Lucky.mp3
+2020-05-20 15:42:09 [root] INFO: Song:MAMA already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\MAMA.flac
+2020-05-20 15:42:09 [root] INFO: Song:Heaven already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Heaven.flac
+2020-05-20 15:42:09 [root] INFO: Song:HURT already exists at C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\HURT.flac
+2020-05-20 15:42:09 [root] INFO: Song:Tempo+Love Shot already exists at C:\Users\Jven\Desktop\Music\exo\2018 KBS가요대축제\Tempo+Love Shot.mp3
+2020-05-20 15:42:09 [root] INFO: Song:Ka-CHING! already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Ka-CHING!.flac
+2020-05-20 15:42:09 [root] INFO: Song:Drop That already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Drop That.flac
+2020-05-20 15:42:09 [root] INFO: Song:Cloud 9 already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Cloud 9.flac
+2020-05-20 15:42:09 [root] INFO: Song:Lotto already exists at C:\Users\Jven\Desktop\Music\exo\空\Lotto.mp3
+2020-05-20 15:42:09 [root] INFO: Song:전야 (前夜) (The Eve)+Ko Ko Bop (2017 MBC音乐中心现场) already exists at C:\Users\Jven\Desktop\Music\exo\전야 (前夜) (The Eve)+Ko Ko Bop (2017 MBC音乐中心现场).mp3
+2020-05-20 15:42:09 [root] INFO: Song:We Young already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\We Young.flac
+2020-05-20 15:42:09 [root] INFO: Song:Boyfriend already exists at C:\Users\Jven\Desktop\Music\exo\空\Boyfriend.mp3
+2020-05-20 15:42:09 [root] INFO: Song:꿈 (She's Dreaming) already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO - The 3rd Album Repackage\꿈 (She's Dreaming).flac
+2020-05-20 15:42:09 [root] INFO: Song:They Never Know already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\They Never Know.flac
+2020-05-20 15:42:09 [root] INFO: Song:Twenty Four already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\Twenty Four.flac
+2020-05-20 15:42:09 [root] INFO: Song:EXODUS already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\EXODUS.flac
+2020-05-20 15:42:09 [root] INFO: Song:TACTIX already exists at C:\Users\Jven\Desktop\Music\exo\Coming Over\TACTIX.mp3
+2020-05-20 15:42:09 [root] INFO: Song:玻璃鱼缸 (One and Only) already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\玻璃鱼缸 (One and Only).flac
+2020-05-20 15:42:09 [root] INFO: Song:TRANSFORMER already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\TRANSFORMER.flac
+2020-05-20 15:42:11 [root] INFO: Song:Let Out The Beast (尽情狂野) (Korean Ver.) crawled
+2020-05-20 15:42:17 [root] INFO: Song:Let Out The Beast (尽情狂野) (Korean Ver.) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Let Out The Beast (尽情狂野) (Korean Ver.).flac
+2020-05-20 15:42:17 [root] INFO: Lyrics:Let Out The Beast (尽情狂野) (Korean Ver.) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Let Out The Beast (尽情狂野) (Korean Ver.).txt
+2020-05-20 15:42:18 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=7
+2020-05-20 15:42:18 [root] INFO: Song:Lucky One already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Lucky One.flac
+2020-05-20 15:42:18 [root] INFO: Song:LOVE SHOT+Tempo already exists at C:\Users\Jven\Desktop\Music\exo\LOVE SHOT+Tempo.mp3
+2020-05-20 15:42:18 [root] INFO: Song:疯语者 (Going Crazy) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR - The 4th Album\疯语者 (Going Crazy).flac
+2020-05-20 15:42:18 [root] INFO: Song:Coming Over already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Coming Over.flac
+2020-05-20 15:42:18 [root] INFO: Song:TENDER LOVE (就是爱) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\TENDER LOVE (就是爱).flac
+2020-05-20 15:42:18 [root] INFO: Song:December, 2014 already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\December, 2014.flac
+2020-05-20 15:42:18 [root] INFO: Song:白色噪音 (White Noise) already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\白色噪音 (White Noise).flac
+2020-05-20 15:42:18 [root] INFO: Song:으르렁 already exists at C:\Users\Jven\Desktop\Music\exo\跨年演唱会2013-2014 日韩篇\으르렁.mp3
+2020-05-20 15:42:18 [root] INFO: Song:Call Me Baby already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Call Me Baby.flac
+2020-05-20 15:42:18 [root] INFO: Song:으르렁 (Growl) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\으르렁 (Growl).flac
+2020-05-20 15:42:18 [root] INFO: Song:Winter Heat already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\Winter Heat.flac
+2020-05-20 15:42:18 [root] INFO: Song:亿万分之一的奇迹 (Falling For You) already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\亿万分之一的奇迹 (Falling For You).flac
+2020-05-20 15:42:18 [root] INFO: Song:늑대와 미녀 (Wolf) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\늑대와 미녀 (Wolf).flac
+2020-05-20 15:42:18 [root] INFO: Song:Baby, Don't Cry (人鱼的眼泪) already exists at C:\Users\Jven\Desktop\Music\exo\Baby, Don't Cry (人鱼的眼泪).mp3
+2020-05-20 15:42:18 [root] INFO: Song:시선 둘, 시선 하나 (What If..) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\시선 둘, 시선 하나 (What If..).flac
+2020-05-20 15:42:18 [root] INFO: Song:指语 (Touch It) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR - The 4th Album\指语 (Touch It).flac
+2020-05-20 15:42:18 [root] INFO: Song:我加你等于永远 (Forever) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR - The 4th Album\我加你等于永远 (Forever).flac
+2020-05-20 15:42:18 [root] INFO: Song:C乐章 (Diamond) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR - The 4th Album\C乐章 (Diamond).flac
+2020-05-20 15:42:18 [root] INFO: Song:유성우(Lady Luck) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\유성우(Lady Luck).flac
+2020-05-20 15:42:18 [root] INFO: Song:Can't Bring Me Down already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO - The 3rd Album Repackage\Can't Bring Me Down.flac
+2020-05-20 15:42:18 [root] INFO: Song:중독 (Overdose) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\중독 (Overdose).flac
+2020-05-20 15:42:18 [root] INFO: Song:What I Want For Christmas already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\What I Want For Christmas.flac
+2020-05-20 15:42:18 [root] INFO: Song:전야 (前夜) (The Eve) (2017 Mnet M!Countdown现场) already exists at C:\Users\Jven\Desktop\Music\exo\전야 (前夜) (The Eve) (2017 Mnet M!Countdown现场).mp3
+2020-05-20 15:42:18 [root] INFO: Song:HURT already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\HURT.flac
+2020-05-20 15:42:18 [root] INFO: Song:BEAUTIFUL already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\BEAUTIFUL.flac
+2020-05-20 15:42:18 [root] INFO: Song:MY ANSWER already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\MY ANSWER.flac
+2020-05-20 15:42:18 [root] INFO: Song:可爱·可恶 (What U do?) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR - The 4th Album\可爱·可恶 (What U do).flac
+2020-05-20 15:42:18 [root] INFO: Song:MONSTER already exists at C:\Users\Jven\Desktop\Music\exo\空\MONSTER.mp3
+2020-05-20 15:42:18 [root] INFO: Song:EXODUS (Chinese Ver.) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\EXODUS (Chinese Ver.).flac
+2020-05-20 15:42:18 [root] INFO: Song:Forever already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Forever.flac
+2020-05-20 15:42:22 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=8
+2020-05-20 15:42:22 [root] INFO: Song:Lotto already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Lotto.flac
+2020-05-20 15:42:22 [root] INFO: Song:寒噤 (Chill) already exists at C:\Users\Jven\Desktop\Music\exo\THE WAR - The 4th Album\寒噤 (Chill).flac
+2020-05-20 15:42:22 [root] INFO: Song:Psycho already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Psycho.flac
+2020-05-20 15:42:22 [root] INFO: Song:狼与美女(Wolf) already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\狼与美女(Wolf).flac
+2020-05-20 15:42:22 [root] INFO: Song:Lucky One already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Lucky One.flac
+2020-05-20 15:42:22 [root] INFO: Song:Boomerang already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\Boomerang.flac
+2020-05-20 15:42:22 [root] INFO: Song:超音力 (Power) already exists at C:\Users\Jven\Desktop\Music\exo\Power (Remixes) - SM STATION\超音力 (Power).flac
+2020-05-20 15:42:22 [root] INFO: Song:梦 (She's Dreaming) already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO - The 3rd Album Repackage\梦 (She's Dreaming).flac
+2020-05-20 15:42:22 [root] INFO: Song:Sing For You already exists at C:\Users\Jven\Desktop\Music\exo\空\Sing For You.mp3
+2020-05-20 15:42:22 [root] INFO: Song:暖冬 (Winter Heat) already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\暖冬 (Winter Heat).flac
+2020-05-20 15:42:22 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\空\Monster.mp3
+2020-05-20 15:42:22 [root] INFO: Song:Love Shot+Tempo already exists at C:\Users\Jven\Desktop\Music\exo\2018 MBC 가요대제전\Love Shot+Tempo.mp3
+2020-05-20 15:42:22 [root] INFO: Song:월광 (Moonlight) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\월광 (Moonlight).flac
+2020-05-20 15:42:22 [root] INFO: Song:Baby Don't Cry already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\Baby Don't Cry.flac
+2020-05-20 15:42:22 [root] INFO: Song:Artificial Love already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Artificial Love.flac
+2020-05-20 15:42:22 [root] INFO: Song:LOTTO already exists at C:\Users\Jven\Desktop\Music\exo\空\LOTTO.mp3
+2020-05-20 15:42:22 [root] INFO: Song:Intro + 狼与美女 already exists at C:\Users\Jven\Desktop\Music\exo\2014湖南卫视元宵喜乐会\Intro + 狼与美女.mp3
+2020-05-20 15:42:22 [root] INFO: Song:二十四小时(Twenty Four) already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\二十四小时(Twenty Four).flac
+2020-05-20 15:42:22 [root] INFO: Song:你的世界 (Angel) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\你的世界 (Angel).flac
+2020-05-20 15:42:22 [root] INFO: Song:I See You already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\I See You.flac
+2020-05-20 15:42:22 [root] INFO: Song:Dubstep Intro already exists at C:\Users\Jven\Desktop\Music\exo\空\Dubstep Intro.mp3
+2020-05-20 15:42:22 [root] INFO: Song:Love Me Right ~romantic universe~ already exists at C:\Users\Jven\Desktop\Music\exo\Love Me Right ~romantic universe~\Love Me Right ~romantic universe~.flac
+2020-05-20 15:42:22 [root] INFO: Song:늑대와미녀 (Wolf) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\늑대와미녀 (Wolf).flac
+2020-05-20 15:42:22 [root] INFO: Song:History already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\History.flac
+2020-05-20 15:42:22 [root] INFO: Song:狼与美女 already exists at C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\狼与美女.flac
+2020-05-20 15:42:22 [root] INFO: Song:부메랑 (Boomerang) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\부메랑 (Boomerang).flac
+2020-05-20 15:42:22 [root] INFO: Song:再续冬季 (What I Want For Christmas) already exists at C:\Users\Jven\Desktop\Music\exo\For Life - 겨울 스페셜 앨범, 2016\再续冬季 (What I Want For Christmas).flac
+2020-05-20 15:42:22 [root] INFO: Song:Love song already exists at C:\Users\Jven\Desktop\Music\exo\空\Love song.mp3
+2020-05-20 15:42:22 [root] INFO: Song:Universe already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Universe.flac
+2020-05-20 15:42:22 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\Monster (LDN Noise Creeper Bass Remix)\Monster.flac
+2020-05-20 15:42:26 [root] INFO: Song:XOXO (Kisses&Hugs) crawled
+2020-05-20 15:42:31 [root] INFO: Song:XOXO (Kisses&Hugs) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\XOXO (Kisses&Hugs).flac
+2020-05-20 15:42:31 [root] INFO: Lyrics:XOXO (Kisses&Hugs) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\XOXO (Kisses&Hugs).txt
+2020-05-20 15:42:31 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=9
+2020-05-20 15:42:31 [root] INFO: Song:너의 손짓 (Touch It) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\너의 손짓 (Touch It).flac
+2020-05-20 15:42:31 [root] INFO: Song:3.6.5 already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\3.6.5.flac
+2020-05-20 15:42:31 [root] INFO: Song:Sing For You already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Sing For You.flac
+2020-05-20 15:42:31 [root] INFO: Song:Playboy already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Playboy.flac
+2020-05-20 15:42:31 [root] INFO: Song:Ko Ko Bop (试听版) already exists at C:\Users\Jven\Desktop\Music\exo\Ko Ko Bop (试听版).mp3
+2020-05-20 15:42:31 [root] INFO: Song:전야 (前夜)(The Eve) (30S试听版) already exists at C:\Users\Jven\Desktop\Music\exo\전야 (前夜)(The Eve) (30S试听版).mp3
+2020-05-20 15:42:31 [root] INFO: Song:Lovin' You Mo' already exists at C:\Users\Jven\Desktop\Music\exo\COUNTDOWN\Lovin' You Mo'.mp3
+2020-05-20 15:42:31 [root] INFO: Song:Lucky already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Lucky.flac
+2020-05-20 15:42:31 [root] INFO: Song:그 사람 already exists at C:\Users\Jven\Desktop\Music\exo\空\그 사람.mp3
+2020-05-20 15:42:31 [root] INFO: Song:Paradise already exists at C:\Users\Jven\Desktop\Music\exo\空\Paradise.mp3
+2020-05-20 15:42:31 [root] INFO: Song:Run (Live) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Run (Live).flac
+2020-05-20 15:42:31 [root] INFO: Song:Love me right already exists at C:\Users\Jven\Desktop\Music\exo\2015 KBS 가요대축제\Love me right.mp3
+2020-05-20 15:42:31 [root] INFO: Song:월광 (Moonlight) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\월광 (Moonlight).flac
+2020-05-20 15:42:31 [root] INFO: Song:기억을 걷는 밤 (Walk On Memories) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\기억을 걷는 밤 (Walk On Memories).flac
+2020-05-20 15:42:31 [root] INFO: Song:늑대와 미녀 already exists at C:\Users\Jven\Desktop\Music\exo\空\늑대와 미녀.mp3
+2020-05-20 15:42:31 [root] INFO: Song:Heaven already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Heaven.flac
+2020-05-20 15:42:31 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO - The 3rd Album Repackage\Monster.flac
+2020-05-20 15:42:31 [root] INFO: Song:내가 미쳐 (Going Crazy) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\내가 미쳐 (Going Crazy).flac
+2020-05-20 15:42:31 [root] INFO: Song:DJ Got Us Falling In Love Again already exists at C:\Users\Jven\Desktop\Music\exo\空\DJ Got Us Falling In Love Again.mp3
+2020-05-20 15:42:31 [root] INFO: Song:Call Me Baby already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Call Me Baby.flac
+2020-05-20 15:42:31 [root] INFO: Song:Call Me Baby already exists at C:\Users\Jven\Desktop\Music\exo\Call Me Baby.mp3
+2020-05-20 15:42:31 [root] INFO: Song:The Eve + Ko Ko Bop already exists at C:\Users\Jven\Desktop\Music\exo\空\The Eve + Ko Ko Bop.mp3
+2020-05-20 15:42:31 [root] INFO: Song:아직도 어두운 밤인가봐 already exists at C:\Users\Jven\Desktop\Music\exo\불후의 명곡2 – 전설을 노래하다 전영록편 (不朽的名曲2 - 唱响传说的歌曲 (全英录篇))\아직도 어두운 밤인가봐.mp3
+2020-05-20 15:42:31 [root] INFO: Song:Into My World already exists at C:\Users\Jven\Desktop\Music\exo\COUNTDOWN\Into My World.mp3
+2020-05-20 15:42:31 [root] INFO: Song:Sweet Lies already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Sweet Lies.flac
+2020-05-20 15:42:31 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\空\Monster.mp3
+2020-05-20 15:42:31 [root] INFO: Song:Beyond already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Beyond.flac
+2020-05-20 15:42:31 [root] INFO: Song:Cloud 9 already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Cloud 9.flac
+2020-05-20 15:42:31 [root] INFO: Song:소름 (Chill) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\소름 (Chill).flac
+2020-05-20 15:42:31 [root] INFO: Song:Run already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Run.flac
+2020-05-20 15:42:36 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=10
+2020-05-20 15:42:36 [root] INFO: Song:They Never Know already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\They Never Know.flac
+2020-05-20 15:42:36 [root] INFO: Song:Stronger already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Stronger.flac
+2020-05-20 15:42:36 [root] INFO: Song:12월의 기적 already exists at C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (12月的奇迹 [韩文版])\12월의 기적.flac
+2020-05-20 15:42:36 [root] INFO: Song:으르렁(Growl) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\으르렁(Growl).flac
+2020-05-20 15:42:36 [root] INFO: Song:Years already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Years.flac
+2020-05-20 15:42:36 [root] INFO: Song:월광 already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\월광.flac
+2020-05-20 15:42:36 [root] INFO: Song:Tender Love already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Tender Love.flac
+2020-05-20 15:42:36 [root] INFO: Song:으르렁 (Growl) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\으르렁 (Growl).flac
+2020-05-20 15:42:36 [root] INFO: Song:Lotto + Monster already exists at C:\Users\Jven\Desktop\Music\exo\空\Lotto + Monster.mp3
+2020-05-20 15:42:36 [root] INFO: Song:죽일 놈 already exists at C:\Users\Jven\Desktop\Music\exo\空\죽일 놈.mp3
+2020-05-20 15:42:36 [root] INFO: Song:What U do? already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\What U do.flac
+2020-05-20 15:42:36 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO - The 3rd Album Repackage\Monster.flac
+2020-05-20 15:42:36 [root] INFO: Song:유성우 (流星雨) (Lady Luck) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\유성우 (流星雨) (Lady Luck).flac
+2020-05-20 15:42:36 [root] INFO: Song:LOVE ME RIGHT already exists at C:\Users\Jven\Desktop\Music\exo\판타스틱 듀오 Part.3\LOVE ME RIGHT.flac
+2020-05-20 15:42:36 [root] INFO: Song:Power already exists at C:\Users\Jven\Desktop\Music\exo\Power (Remixes) - SM STATION\Power.flac
+2020-05-20 15:42:36 [root] INFO: Song:不是过分的崇拜 already exists at C:\Users\Jven\Desktop\Music\exo\空\不是过分的崇拜.mp3
+2020-05-20 15:42:36 [root] INFO: Song:월광 already exists at C:\Users\Jven\Desktop\Music\exo\空\월광.mp3
+2020-05-20 15:42:36 [root] INFO: Song:Thunder already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\Thunder.flac
+2020-05-20 15:42:36 [root] INFO: Song:Full Moon already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Full Moon.flac
+2020-05-20 15:42:36 [root] INFO: Song:Lucky (Live) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Lucky (Live).flac
+2020-05-20 15:42:36 [root] INFO: Song:TEMPO already exists at C:\Users\Jven\Desktop\Music\exo\TEMPO.flac
+2020-05-20 15:42:36 [root] INFO: Song:MAMA already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\MAMA.flac
+2020-05-20 15:42:36 [root] INFO: Song:XOXO (Kisses & Hugs) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\XOXO (Kisses & Hugs).mp3
+2020-05-20 15:42:36 [root] INFO: Song:LOTTO (Areia Kpop Remix版) already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO (Areia Kpop Remix版).mp3
+2020-05-20 15:42:36 [root] INFO: Song:Drop That (2015 EXO PLANET #2 The EXO'luXion In Seoul现场) already exists at C:\Users\Jven\Desktop\Music\exo\Drop That (2015 EXO PLANET #2 The EXO'luXion In Seoul现场).mp3
+2020-05-20 15:42:36 [root] INFO: Song:Together already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Together.flac
+2020-05-20 15:42:36 [root] INFO: Song:고집 already exists at C:\Users\Jven\Desktop\Music\exo\空\고집.mp3
+2020-05-20 15:42:36 [root] INFO: Song:Call me baby + Love me right already exists at C:\Users\Jven\Desktop\Music\exo\2015 SBS 가요대전\Call me baby + Love me right.mp3
+2020-05-20 15:42:36 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Monster.flac
+2020-05-20 15:42:36 [root] INFO: Song:No Pardons already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\No Pardons.mp3
+2020-05-20 15:42:39 [root] INFO: Song:Heart Attack crawled
+2020-05-20 15:42:45 [root] INFO: Song:Heart Attack downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Heart Attack.flac
+2020-05-20 15:42:45 [root] INFO: Lyrics:Heart Attack downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\Heart Attack.txt
+2020-05-20 15:42:46 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=11
+2020-05-20 15:42:46 [root] INFO: Song:Let Out The Beast already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\Let Out The Beast.flac
+2020-05-20 15:42:46 [root] INFO: Song:Power already exists at C:\Users\Jven\Desktop\Music\exo\Power (Remixes) - SM STATION\Power.flac
+2020-05-20 15:42:46 [root] INFO: Song:임과 함께 already exists at C:\Users\Jven\Desktop\Music\exo\空\임과 함께.mp3
+2020-05-20 15:42:46 [root] INFO: Song:Love Me Right~romantic universe~ already exists at C:\Users\Jven\Desktop\Music\exo\COUNTDOWN\Love Me Right~romantic universe~.mp3
+2020-05-20 15:42:46 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Monster.flac
+2020-05-20 15:42:46 [root] INFO: Song:피터팬 (Peter Pan) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\피터팬 (Peter Pan).flac
+2020-05-20 15:42:46 [root] INFO: Song:EXO Keep On Dancing already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\EXO Keep On Dancing.flac
+2020-05-20 15:42:46 [root] INFO: Song:Lightsaber already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Lightsaber.flac
+2020-05-20 15:42:46 [root] INFO: Song:Power already exists at C:\Users\Jven\Desktop\Music\exo\THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage\Power.flac
+2020-05-20 15:42:46 [root] INFO: Song:DJ Got Us Falling In Love Again already exists at C:\Users\Jven\Desktop\Music\exo\空\DJ Got Us Falling In Love Again.mp3
+2020-05-20 15:42:46 [root] INFO: Song:주문 already exists at C:\Users\Jven\Desktop\Music\exo\空\주문.mp3
+2020-05-20 15:42:46 [root] INFO: Song:Love Me Right already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Love Me Right.flac
+2020-05-20 15:42:46 [root] INFO: Song:Machine already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\Machine.flac
+2020-05-20 15:42:46 [root] INFO: Song:불공평해 (Unfair) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\불공평해 (Unfair).flac
+2020-05-20 15:42:46 [root] INFO: Song:Promise already exists at C:\Users\Jven\Desktop\Music\exo\空\Promise.mp3
+2020-05-20 15:42:46 [root] INFO: Song:Lucky One already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Lucky One.flac
+2020-05-20 15:42:46 [root] INFO: Song:Sing For You already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Sing For You.flac
+2020-05-20 15:42:46 [root] INFO: Song:Growl already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Growl.flac
+2020-05-20 15:42:46 [root] INFO: Song:Transformer already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Transformer.flac
+2020-05-20 15:42:46 [root] INFO: Song:Billionaire already exists at C:\Users\Jven\Desktop\Music\exo\空\Billionaire.mp3
+2020-05-20 15:42:46 [root] INFO: Song:Black Pearl already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\Black Pearl.flac
+2020-05-20 15:42:46 [root] INFO: Song:3.6.5 (Live) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\3.6.5 (Live).flac
+2020-05-20 15:42:46 [root] INFO: Song:백색소음 (White Noise) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\백색소음 (White Noise).flac
+2020-05-20 15:42:46 [root] INFO: Song:12월의 기적 already exists at C:\Users\Jven\Desktop\Music\exo\12월의 기적.mp3
+2020-05-20 15:42:46 [root] INFO: Song:My Lady already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\My Lady.flac
+2020-05-20 15:42:46 [root] INFO: Song:Sabor a Mi already exists at C:\Users\Jven\Desktop\Music\exo\空\Sabor a Mi.mp3
+2020-05-20 15:42:46 [root] INFO: Song:Power (IMLAY Remix) already exists at C:\Users\Jven\Desktop\Music\exo\Power (Remixes) - SM STATION\Power (IMLAY Remix).flac
+2020-05-20 15:42:46 [root] INFO: Song:Dancing King already exists at C:\Users\Jven\Desktop\Music\exo\Dancing King - SM STATION\Dancing King.flac
+2020-05-20 15:42:46 [root] INFO: Song:Sunday Morning already exists at C:\Users\Jven\Desktop\Music\exo\空\Sunday Morning.mp3
+2020-05-20 15:42:46 [root] INFO: Song:Nothing on You already exists at C:\Users\Jven\Desktop\Music\exo\空\Nothing on You.mp3
+2020-05-20 15:42:51 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=12
+2020-05-20 15:42:51 [root] INFO: Song:Playboy (Live) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Playboy (Live).flac
+2020-05-20 15:42:51 [root] INFO: Song:My Lady already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\My Lady.flac
+2020-05-20 15:42:51 [root] INFO: Song:Can't Bring Me Down (Chinese Ver.) already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO - The 3rd Album Repackage\Can't Bring Me Down (Chinese Ver.).flac
+2020-05-20 15:42:51 [root] INFO: Song:叩叩趴 (Ko Ko Bop) (预告版) already exists at C:\Users\Jven\Desktop\Music\exo\叩叩趴 (Ko Ko Bop) (预告版).mp3
+2020-05-20 15:42:51 [root] INFO: Song:Người ấy already exists at C:\Users\Jven\Desktop\Music\exo\空\Người ấy.mp3
+2020-05-20 15:42:51 [root] INFO: Song:중독 (Overdose) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\중독 (Overdose).flac
+2020-05-20 15:42:51 [root] INFO: Song:3.6.5 already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\3.6.5.flac
+2020-05-20 15:42:51 [root] INFO: Song:Artificial Love already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Artificial Love.flac
+2020-05-20 15:42:51 [root] INFO: Song:For Life + Monster already exists at C:\Users\Jven\Desktop\Music\exo\空\For Life + Monster.mp3
+2020-05-20 15:42:51 [root] INFO: Song:For Life already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\For Life.flac
+2020-05-20 15:42:51 [root] INFO: Song:MAMA + Lucifer already exists at C:\Users\Jven\Desktop\Music\exo\2015 SBS 가요대전\MAMA + Lucifer.mp3
+2020-05-20 15:42:51 [root] INFO: Song:Lucifer already exists at C:\Users\Jven\Desktop\Music\exo\空\Lucifer.mp3
+2020-05-20 15:42:51 [root] INFO: Song:Thunder already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Thunder.flac
+2020-05-20 15:42:51 [root] INFO: Song:Heaven (Live) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Heaven (Live).flac
+2020-05-20 15:42:51 [root] INFO: Song:Haka already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\Haka.flac
+2020-05-20 15:42:51 [root] INFO: Song:Lonely night already exists at C:\Users\Jven\Desktop\Music\exo\空\Lonely night.mp3
+2020-05-20 15:42:51 [root] INFO: Song:Tender Love (Live) already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Tender Love (Live).flac
+2020-05-20 15:42:51 [root] INFO: Song:Crazy In Love already exists at C:\Users\Jven\Desktop\Music\exo\跨年演唱会2013-2014 日韩篇\Crazy In Love.mp3
+2020-05-20 15:42:51 [root] INFO: Song:살다가 already exists at C:\Users\Jven\Desktop\Music\exo\空\살다가.mp3
+2020-05-20 15:42:51 [root] INFO: Song:Girl x Friend already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Girl x Friend.flac
+2020-05-20 15:42:51 [root] INFO: Song:전야+Diamond+Run This+Ko Ko Bop already exists at C:\Users\Jven\Desktop\Music\exo\空\전야+Diamond+Run This+Ko Ko Bop.mp3
+2020-05-20 15:42:51 [root] INFO: Song:늑대와 미녀 (Wolf) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\늑대와 미녀 (Wolf).flac
+2020-05-20 15:42:51 [root] INFO: Song:All My Loving already exists at C:\Users\Jven\Desktop\Music\exo\空\All My Loving.mp3
+2020-05-20 15:42:51 [root] INFO: Song:늑대와 미녀 (Wolf) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\늑대와 미녀 (Wolf).flac
+2020-05-20 15:42:51 [root] INFO: Song:The Lost Planet already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\The Lost Planet.flac
+2020-05-20 15:42:51 [root] INFO: Song:Punk Right Now+HYBIRD+7th sense+Go+be natural+RBB+monster already exists at C:\Users\Jven\Desktop\Music\exo\2018 KBS가요대축제\Punk Right Now+HYBIRD+7th sense+Go+be natural+RBB+monster.mp3
+2020-05-20 15:42:51 [root] INFO: Song:Baby,Don't Cry(人鱼的眼泪) (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\Baby,Don't Cry(人鱼的眼泪) (纯音乐).mp3
+2020-05-20 15:42:51 [root] INFO: Song:MAMA (Korean ver. & Chinese版) already exists at C:\Users\Jven\Desktop\Music\exo\MAMA (Korean ver. & Chinese版).mp3
+2020-05-20 15:42:51 [root] INFO: Song:Monster (Chinese Ver.|Instrumental) already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Monster (Chinese Ver.Instrumental).flac
+2020-05-20 15:42:51 [root] INFO: Song:Run (演唱会版) already exists at C:\Users\Jven\Desktop\Music\exo\Run (演唱会版).mp3
+2020-05-20 15:42:53 [root] INFO: Song:舞 (Groove) crawled
+2020-05-20 15:42:59 [root] INFO: Song:舞 (Groove) downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\舞 (Groove).flac
+2020-05-20 15:42:59 [root] INFO: Lyrics:舞 (Groove) downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\舞 (Groove).txt
+2020-05-20 15:42:59 [scrapy.extensions.logstats] INFO: Crawled 26 pages (at 18 pages/min), scraped 6 items (at 5 items/min)
+2020-05-20 15:42:59 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=13
+2020-05-20 15:42:59 [root] INFO: Song:Nothing Better already exists at C:\Users\Jven\Desktop\Music\exo\空\Nothing Better.mp3
+2020-05-20 15:42:59 [root] INFO: Song:KO KO BOP already exists at C:\Users\Jven\Desktop\Music\exo\2017 SBS가요대전 Live (2017 SBS歌谣大战 合辑)\KO KO BOP.mp3
+2020-05-20 15:42:59 [root] INFO: Song:Lucky One (Areia Kpop混音版) already exists at C:\Users\Jven\Desktop\Music\exo\Lucky One (Areia Kpop混音版).mp3
+2020-05-20 15:42:59 [root] INFO: Song:Cloud 9 already exists at C:\Users\Jven\Desktop\Music\exo\EXO PLANET #3-The EXO'rDIUM[dot]-Live Album\Cloud 9.flac
+2020-05-20 15:42:59 [root] INFO: Song:Black Pearl (Live|Rearranged) already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\Black Pearl (LiveRearranged).mp3
+2020-05-20 15:42:59 [root] INFO: Song:TRANSFORMER + MONSTER already exists at C:\Users\Jven\Desktop\Music\exo\空\TRANSFORMER + MONSTER.mp3
+2020-05-20 15:42:59 [root] INFO: Song:baby don't cry（人鱼的眼泪）中韩文串烧 already exists at C:\Users\Jven\Desktop\Music\exo\baby don't cry（人鱼的眼泪）中韩文串烧.mp3
+2020-05-20 15:42:59 [root] INFO: Song:빨래 already exists at C:\Users\Jven\Desktop\Music\exo\空\빨래.mp3
+2020-05-20 15:42:59 [root] INFO: Song:Everybody already exists at C:\Users\Jven\Desktop\Music\exo\跨年演唱会2013-2014 日韩篇\Everybody.mp3
+2020-05-20 15:42:59 [root] INFO: Song:POWER already exists at C:\Users\Jven\Desktop\Music\exo\박진영의 파티피플10회\POWER.mp3
+2020-05-20 15:42:59 [root] INFO: Song:Lucky One+Monster (2016 SBS人气歌谣现场) already exists at C:\Users\Jven\Desktop\Music\exo\Lucky One+Monster (2016 SBS人气歌谣现场).mp3
+2020-05-20 15:42:59 [root] INFO: Song:Why So Serious already exists at C:\Users\Jven\Desktop\Music\exo\空\Why So Serious.mp3
+2020-05-20 15:42:59 [root] INFO: Song:Universe (2017MBC歌谣大祭典现场) already exists at C:\Users\Jven\Desktop\Music\exo\Universe (2017MBC歌谣大祭典现场).mp3
+2020-05-20 15:42:59 [root] INFO: Song:Lucky One (幸运儿) (Chinese Ver.|Instrumental) already exists at C:\Users\Jven\Desktop\Music\exo\EX'ACT - The 3rd Album\Lucky One (幸运儿) (Chinese Ver.Instrumental).flac
+2020-05-20 15:42:59 [root] INFO: Song:Chờ Người Nơi Ấy already exists at C:\Users\Jven\Desktop\Music\exo\空\Chờ Người Nơi Ấy.mp3
+2020-05-20 15:42:59 [root] INFO: Song:으르렁 + 중독 + Call Me Baby + Beats + Monster already exists at C:\Users\Jven\Desktop\Music\exo\空\으르렁 + 중독 + Call Me Baby + Beats + Monster.mp3
+2020-05-20 15:42:59 [root] INFO: Song:sunny10 already exists at C:\Users\Jven\Desktop\Music\exo\空\sunny10.mp3
+2020-05-20 15:42:59 [root] INFO: Song:Call me baby + Love me right already exists at C:\Users\Jven\Desktop\Music\exo\제25회 하이원 서울가요대상\Call me baby + Love me right.mp3
+2020-05-20 15:42:59 [root] INFO: Song:MAMA Remix (Live) already exists at C:\Users\Jven\Desktop\Music\exo\MAMA Remix (Live).mp3
+2020-05-20 15:42:59 [root] INFO: Song:The Last Time already exists at C:\Users\Jven\Desktop\Music\exo\空\The Last Time.mp3
+2020-05-20 15:42:59 [root] INFO: Song:너의 손짓 (Touch It) (指语) (2017 KBS歌谣大祝祭现场) already exists at C:\Users\Jven\Desktop\Music\exo\너의 손짓 (Touch It) (指语) (2017 KBS歌谣大祝祭现场).mp3
+2020-05-20 15:42:59 [root] INFO: Song:BLACK ON BLACK + 2016늑대와 양 + MAMA Heavy Metal + TRAX 정모 already exists at C:\Users\Jven\Desktop\Music\exo\空\BLACK ON BLACK + 2016늑대와 양 + MAMA Heavy Metal + TRAX 정모.mp3
+2020-05-20 15:42:59 [root] INFO: Song:疯语者 already exists at C:\Users\Jven\Desktop\Music\exo\疯语者.mp3
+2020-05-20 15:42:59 [root] INFO: Song:Forever + 전야 + Ko Ko Bop already exists at C:\Users\Jven\Desktop\Music\exo\空\Forever + 전야 + Ko Ko Bop.mp3
+2020-05-20 15:42:59 [root] INFO: Song:Let Out The Beast+Run (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\Let Out The Beast+Run (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:42:59 [root] INFO: Song:Wolf - The Legend Begins already exists at C:\Users\Jven\Desktop\Music\exo\EXOLOGY CHAPTER 1 THE LOST PLANET\Wolf - The Legend Begins.flac
+2020-05-20 15:42:59 [root] INFO: Song:They Call Me already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 3\They Call Me.mp3
+2020-05-20 15:42:59 [root] INFO: Song:Run (混音) already exists at C:\Users\Jven\Desktop\Music\exo\Run (混音).mp3
+2020-05-20 15:42:59 [root] INFO: Song:xoxo (中韩 蝴蝶少女 少女终极版) already exists at C:\Users\Jven\Desktop\Music\exo\xoxo (中韩 蝴蝶少女 少女终极版).mp3
+2020-05-20 15:42:59 [root] INFO: Song:마법의 성 already exists at C:\Users\Jven\Desktop\Music\exo\空\마법의 성.mp3
+2020-05-20 15:43:05 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=14
+2020-05-20 15:43:05 [root] INFO: Song:Monster+Louder (2017第六届Gaon Chart K-POP Awards现场) already exists at C:\Users\Jven\Desktop\Music\exo\Monster+Louder (2017第六届Gaon Chart K-POP Awards现场).mp3
+2020-05-20 15:43:05 [root] INFO: Song:LOTTO (2016 KBS音乐银行现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO (2016 KBS音乐银行现场).mp3
+2020-05-20 15:43:05 [root] INFO: Song:Lucky One+Monster (2016 MBC音乐中心现场) already exists at C:\Users\Jven\Desktop\Music\exo\Lucky One+Monster (2016 MBC音乐中心现场).mp3
+2020-05-20 15:43:05 [root] INFO: Song:mama (DJ混合版) already exists at C:\Users\Jven\Desktop\Music\exo\mama (DJ混合版).mp3
+2020-05-20 15:43:05 [root] INFO: Song:月光 (Moonlight) (饭制版) already exists at C:\Users\Jven\Desktop\Music\exo\月光 (Moonlight) (饭制版).mp3
+2020-05-20 15:43:05 [root] INFO: Song:INTRO+sign already exists at C:\Users\Jven\Desktop\Music\exo\2018 KBS가요대축제\INTRO+sign.mp3
+2020-05-20 15:43:05 [root] INFO: Song:咒文 (Mirotic) already exists at C:\Users\Jven\Desktop\Music\exo\咒文 (Mirotic).mp3
+2020-05-20 15:43:05 [root] INFO: Song:전야(The Eve)+Ko Ko Bop (2017 Soribada Best K-Music Awards现场) already exists at C:\Users\Jven\Desktop\Music\exo\전야(The Eve)+Ko Ko Bop (2017 Soribada Best K-Music Awards现场).mp3
+2020-05-20 15:43:05 [root] INFO: Song:No Pardons already exists at C:\Users\Jven\Desktop\Music\exo\No Pardons.mp3
+2020-05-20 15:43:05 [root] INFO: Song:부메랑 already exists at C:\Users\Jven\Desktop\Music\exo\박진영의 파티피플10회\부메랑.mp3
+2020-05-20 15:43:05 [root] INFO: Song:Drop That (Less Vocal) already exists at C:\Users\Jven\Desktop\Music\exo\Love Me Right ~romantic universe~\Drop That (Less Vocal).flac
+2020-05-20 15:43:05 [root] INFO: Song:I See You + Kinetic Perf. + Power already exists at C:\Users\Jven\Desktop\Music\exo\空\I See You + Kinetic Perf. + Power.mp3
+2020-05-20 15:43:05 [root] INFO: Song:破风 (The Eve) (30S试听版) already exists at C:\Users\Jven\Desktop\Music\exo\破风 (The Eve) (30S试听版).mp3
+2020-05-20 15:43:05 [root] INFO: Song:POWER already exists at C:\Users\Jven\Desktop\Music\exo\2017 SBS가요대전 Live (2017 SBS歌谣大战 合辑)\POWER.mp3
+2020-05-20 15:43:05 [root] INFO: Song:LOVE ME RIGHT already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT.flac
+2020-05-20 15:43:05 [root] INFO: Song:Go Head already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Go Head.mp3
+2020-05-20 15:43:05 [root] INFO: Song:Love Me Right ~romantic universe~ (Less Vocal) already exists at C:\Users\Jven\Desktop\Music\exo\Love Me Right ~romantic universe~\Love Me Right ~romantic universe~ (Less Vocal).flac
+2020-05-20 15:43:05 [root] INFO: Song:Monster (预告版) already exists at C:\Users\Jven\Desktop\Music\exo\Monster (预告版).mp3
+2020-05-20 15:43:05 [root] INFO: Song:Hip Hop Ain't Dead already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Hip Hop Ain't Dead.flac
+2020-05-20 15:43:05 [root] INFO: Song:三星广告曲 already exists at C:\Users\Jven\Desktop\Music\exo\三星广告曲.mp3
+2020-05-20 15:43:05 [root] INFO: Song:Thunder already exists at C:\Users\Jven\Desktop\Music\exo\Thunder.mp3
+2020-05-20 15:43:05 [root] INFO: Song:和你在一起 (KBS不朽的名曲现场版) already exists at C:\Users\Jven\Desktop\Music\exo\和你在一起 (KBS不朽的名曲现场版).mp3
+2020-05-20 15:43:05 [root] INFO: Song:蝴蝶少女(Don't Go) (2015 EXO-L Japan Fan Meeting现场) already exists at C:\Users\Jven\Desktop\Music\exo\蝴蝶少女(Don't Go) (2015 EXO-L Japan Fan Meeting现场).mp3
+2020-05-20 15:43:05 [root] INFO: Song:Monster (2016 Star Show 360 Live) already exists at C:\Users\Jven\Desktop\Music\exo\Monster (2016 Star Show 360 Live).mp3
+2020-05-20 15:43:05 [root] INFO: Song:Monster already exists at C:\Users\Jven\Desktop\Music\exo\空\Monster.mp3
+2020-05-20 15:43:05 [root] INFO: Song:For Life (Live) already exists at C:\Users\Jven\Desktop\Music\exo\2017 KBS가요대축제 Live (2017KBS歌谣大祝祭)\For Life (Live).mp3
+2020-05-20 15:43:05 [root] INFO: Song:진정 난 몰랐네 already exists at C:\Users\Jven\Desktop\Music\exo\불후의 명곡2 - 전설을 노래하다 장미화&임희숙 편\진정 난 몰랐네.mp3
+2020-05-20 15:43:05 [root] INFO: Song:咆哮+狼与美女 (Wolf) already exists at C:\Users\Jven\Desktop\Music\exo\咆哮+狼与美女 (Wolf).mp3
+2020-05-20 15:43:05 [root] INFO: Song:LOTTO (2016 SBS人气歌谣现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO (2016 SBS人气歌谣现场).mp3
+2020-05-20 15:43:05 [root] INFO: Song:Full Moon+Machine (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\Full Moon+Machine (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:08 [root] INFO: Song:첫 눈 crawled
+2020-05-20 15:43:15 [root] INFO: Song:첫 눈 downloaded to C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (12月的奇迹 [韩文版])\첫 눈.flac
+2020-05-20 15:43:15 [root] INFO: Lyrics:첫 눈 downloaded to C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (12月的奇迹 [韩文版])\첫 눈.txt
+2020-05-20 15:43:15 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=15
+2020-05-20 15:43:15 [root] INFO: Song:Call Me Baby+咆哮(Growl)+Love Me Right (2015韩国I Am Korea现场) already exists at C:\Users\Jven\Desktop\Music\exo\Call Me Baby+咆哮(Growl)+Love Me Right (2015韩国I Am Korea现场).mp3
+2020-05-20 15:43:15 [root] INFO: Song:初雪 (Live) already exists at C:\Users\Jven\Desktop\Music\exo\初雪 (Live).mp3
+2020-05-20 15:43:15 [root] INFO: Song:너의 손짓 (Touch It) (指语) (Live) already exists at C:\Users\Jven\Desktop\Music\exo\2017 KBS가요대축제 Live (2017KBS歌谣大祝祭)\너의 손짓 (Touch It) (指语) (Live).mp3
+2020-05-20 15:43:15 [root] INFO: Song:Lucky One+Monster (2016 KBS音乐银行现场) already exists at C:\Users\Jven\Desktop\Music\exo\Lucky One+Monster (2016 KBS音乐银行现场).mp3
+2020-05-20 15:43:15 [root] INFO: Song:love, love, love (梦中梦) already exists at C:\Users\Jven\Desktop\Music\exo\love, love, love (梦中梦).mp3
+2020-05-20 15:43:15 [root] INFO: Song:Find My Way already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 4\Find My Way.mp3
+2020-05-20 15:43:15 [root] INFO: Song:Clap Clap already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 4\Clap Clap.mp3
+2020-05-20 15:43:15 [root] INFO: Song:LOTTO (2016 MBC音乐中心现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO (2016 MBC音乐中心现场).mp3
+2020-05-20 15:43:15 [root] INFO: Song:Block Life already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Block Life.flac
+2020-05-20 15:43:15 [root] INFO: Song:Lucky (双声道版) already exists at C:\Users\Jven\Desktop\Music\exo\Lucky (双声道版).mp3
+2020-05-20 15:43:15 [root] INFO: Song:十二月的奇迹 already exists at C:\Users\Jven\Desktop\Music\exo\十二月的奇迹.mp3
+2020-05-20 15:43:15 [root] INFO: Song:CALL ME BABY (Live) already exists at C:\Users\Jven\Desktop\Music\exo\2017 KBS가요대축제 Live (2017KBS歌谣大祝祭)\CALL ME BABY (Live).mp3
+2020-05-20 15:43:15 [root] INFO: Song:Baby, Don't Cry (人鱼的眼泪) (网友自制) already exists at C:\Users\Jven\Desktop\Music\exo\Baby, Don't Cry (人鱼的眼泪) (网友自制).mp3
+2020-05-20 15:43:15 [root] INFO: Song:十二月的奇迹 (Miracles In December 双声道版) already exists at C:\Users\Jven\Desktop\Music\exo\十二月的奇迹 (Miracles In December 双声道版).mp3
+2020-05-20 15:43:15 [root] INFO: Song:Freestyle already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Freestyle.mp3
+2020-05-20 15:43:15 [root] INFO: Song:Baby,Don't Cry (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\Baby,Don't Cry (纯音乐).mp3
+2020-05-20 15:43:15 [root] INFO: Song:初雪 (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\初雪 (纯音乐).mp3
+2020-05-20 15:43:15 [root] INFO: Song:漫游宇宙 (LOVE ME RIGHT) already exists at C:\Users\Jven\Desktop\Music\exo\漫游宇宙 (LOVE ME RIGHT).mp3
+2020-05-20 15:43:15 [root] INFO: Song:狼与美女+咆哮 (Growl) already exists at C:\Users\Jven\Desktop\Music\exo\狼与美女+咆哮 (Growl).mp3
+2020-05-20 15:43:15 [root] INFO: Song:Aint Nuttin already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Aint Nuttin.mp3
+2020-05-20 15:43:15 [root] INFO: Song:Usg Soca Medley already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Usg Soca Medley.mp3
+2020-05-20 15:43:15 [root] INFO: Song:起床歌 already exists at C:\Users\Jven\Desktop\Music\exo\起床歌.mp3
+2020-05-20 15:43:15 [root] INFO: Song:Stronger (2016 Star Show 360 Live) already exists at C:\Users\Jven\Desktop\Music\exo\Stronger (2016 Star Show 360 Live).mp3
+2020-05-20 15:43:15 [root] INFO: Song:Block Life already exists at C:\Users\Jven\Desktop\Music\exo\Block Life.flac
+2020-05-20 15:43:15 [root] INFO: Song:Darkside already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 3\Darkside.mp3
+2020-05-20 15:43:15 [root] INFO: Song:MAMA Heavy Metal (2016 SBS歌谣大战现场) already exists at C:\Users\Jven\Desktop\Music\exo\MAMA Heavy Metal (2016 SBS歌谣大战现场).mp3
+2020-05-20 15:43:15 [root] INFO: Song:那个人 (2015-04-08音乐银行河内特辑现场版) already exists at C:\Users\Jven\Desktop\Music\exo\那个人 (2015-04-08音乐银行河内特辑现场版).mp3
+2020-05-20 15:43:15 [root] INFO: Song:Knuckle Up already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Knuckle Up.flac
+2020-05-20 15:43:15 [root] INFO: Song:咆哮 (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\咆哮 (纯音乐).mp3
+2020-05-20 15:43:15 [root] INFO: Song:Power (预告版) already exists at C:\Users\Jven\Desktop\Music\exo\Power (预告版).mp3
+2020-05-20 15:43:19 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=16
+2020-05-20 15:43:19 [root] INFO: Song:十二月的奇迹 (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\十二月的奇迹 (纯音乐).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Harlesden 2 Stonebridge already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Harlesden 2 Stonebridge.mp3
+2020-05-20 15:43:19 [root] INFO: Song:Sorry Sorry+咆哮 (2014 MBC音乐中心现场) already exists at C:\Users\Jven\Desktop\Music\exo\Sorry Sorry+咆哮 (2014 MBC音乐中心现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Monster (2016 SBS歌谣大战现场) already exists at C:\Users\Jven\Desktop\Music\exo\Monster (2016 SBS歌谣大战现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Monster (2016 KBS音乐银行现场) already exists at C:\Users\Jven\Desktop\Music\exo\Monster (2016 KBS音乐银行现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Dubstep Intro (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\Dubstep Intro (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:HISTORY (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\HISTORY (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Monster (2016 SBS人气歌谣现场) already exists at C:\Users\Jven\Desktop\Music\exo\Monster (2016 SBS人气歌谣现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:we are family already exists at C:\Users\Jven\Desktop\Music\exo\we are family.mp3
+2020-05-20 15:43:19 [root] INFO: Song:中文 already exists at C:\Users\Jven\Desktop\Music\exo\中文.mp3
+2020-05-20 15:43:19 [root] INFO: Song:No Love Get Money already exists at C:\Users\Jven\Desktop\Music\exo\Untouchable Street Generals\No Love Get Money.flac
+2020-05-20 15:43:19 [root] INFO: Song:Baby,Don't Cry (2016 EXO PLANET #2 The EXO'luXion In Seoul现场) already exists at C:\Users\Jven\Desktop\Music\exo\Baby,Don't Cry (2016 EXO PLANET #2 The EXO'luXion In Seoul现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Dubstep Intro (Live) already exists at C:\Users\Jven\Desktop\Music\exo\Dubstep Intro (Live).mp3
+2020-05-20 15:43:19 [root] INFO: Song:주문 (MIROTIC) (2012 MAMA颁奖典礼现场) already exists at C:\Users\Jven\Desktop\Music\exo\주문 (MIROTIC) (2012 MAMA颁奖典礼现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:F U Pay Me already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\F U Pay Me.mp3
+2020-05-20 15:43:19 [root] INFO: Song:HOPE already exists at C:\Users\Jven\Desktop\Music\exo\HOPE.mp3
+2020-05-20 15:43:19 [root] INFO: Song:Call Me Baby+Light Saber (2015MAMA亚洲音乐盛典现场) already exists at C:\Users\Jven\Desktop\Music\exo\Call Me Baby+Light Saber (2015MAMA亚洲音乐盛典现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Predators already exists at C:\Users\Jven\Desktop\Music\exo\Predators.flac
+2020-05-20 15:43:19 [root] INFO: Song:Drop That+Love Me Right (2015MAMA亚洲音乐盛典现场) already exists at C:\Users\Jven\Desktop\Music\exo\Drop That+Love Me Right (2015MAMA亚洲音乐盛典现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Tell Me What Is Love (D.O. 现场版) already exists at C:\Users\Jven\Desktop\Music\exo\Tell Me What Is Love (D.O. 现场版).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Love Me Right ~romantic universe~ (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\Love Me Right ~romantic universe~ (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:I Monster That (Areia Kpop Blend版) already exists at C:\Users\Jven\Desktop\Music\exo\I Monster That (Areia Kpop Blend版).mp3
+2020-05-20 15:43:19 [root] INFO: Song:初雪 (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\初雪 (原版伴奏).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Show n' Prove already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 2\Show n' Prove.flac
+2020-05-20 15:43:19 [root] INFO: Song:Throw up A already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 2\Throw up A.mp3
+2020-05-20 15:43:19 [root] INFO: Song:tao全部歌曲黄子韬声音合辑 already exists at C:\Users\Jven\Desktop\Music\exo\tao全部歌曲黄子韬声音合辑.mp3
+2020-05-20 15:43:19 [root] INFO: Song:LOTTO+Monster (2016 MBC Korean Music Wave现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO+Monster (2016 MBC Korean Music Wave现场).mp3
+2020-05-20 15:43:19 [root] INFO: Song:Lucifer (2013MAMA颁奖礼) already exists at C:\Users\Jven\Desktop\Music\exo\Lucifer (2013MAMA颁奖礼).mp3
+2020-05-20 15:43:19 [root] INFO: Song:全新歌曲串烧 already exists at C:\Users\Jven\Desktop\Music\exo\全新歌曲串烧.mp3
+2020-05-20 15:43:19 [root] INFO: Song:Thunder+上瘾 (Overdose) already exists at C:\Users\Jven\Desktop\Music\exo\Thunder+上瘾 (Overdose).mp3
+2020-05-20 15:43:22 [root] INFO: Song:化身 (Jekyll) crawled
+2020-05-20 15:43:27 [root] INFO: Song:化身 (Jekyll) downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\化身 (Jekyll).flac
+2020-05-20 15:43:27 [root] INFO: Lyrics:化身 (Jekyll) downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\化身 (Jekyll).txt
+2020-05-20 15:43:27 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=17
+2020-05-20 15:43:27 [root] INFO: Song:序曲+咆哮 (Growl) already exists at C:\Users\Jven\Desktop\Music\exo\序曲+咆哮 (Growl).mp3
+2020-05-20 15:43:27 [root] INFO: Song:交通安全颂 (2013人气歌谣现场版) already exists at C:\Users\Jven\Desktop\Music\exo\交通安全颂 (2013人气歌谣现场版).mp3
+2020-05-20 15:43:27 [root] INFO: Song:LOTTO+Monster (2017 U Have a Dream庆典现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOTTO+Monster (2017 U Have a Dream庆典现场).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Re Rock already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Re Rock.flac
+2020-05-20 15:43:27 [root] INFO: Song:狼与美女 (늑대와 미녀) already exists at C:\Users\Jven\Desktop\Music\exo\狼与美女 (늑대와 미녀).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Gwop Getter already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Gwop Getter.mp3
+2020-05-20 15:43:27 [root] INFO: Song:Getting Money already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 2\Getting Money.mp3
+2020-05-20 15:43:27 [root] INFO: Song:drama episode 2 (中文版) already exists at C:\Users\Jven\Desktop\Music\exo\drama episode 2 (中文版).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Juggle on the Block already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 2\Juggle on the Block.mp3
+2020-05-20 15:43:27 [root] INFO: Song:月光+上瘾 (Overdose) already exists at C:\Users\Jven\Desktop\Music\exo\月光+上瘾 (Overdose).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Wolf-The Legend Begins (中文版) already exists at C:\Users\Jven\Desktop\Music\exo\Wolf-The Legend Begins (中文版).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Unfair (2015 SBS人气歌谣现场) already exists at C:\Users\Jven\Desktop\Music\exo\Unfair (2015 SBS人气歌谣现场).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Money on My Mind already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 2\Money on My Mind.mp3
+2020-05-20 15:43:27 [root] INFO: Song:we are the future (2013第27届金唱片颁奖典礼现场) already exists at C:\Users\Jven\Desktop\Music\exo\we are the future (2013第27届金唱片颁奖典礼现场).mp3
+2020-05-20 15:43:27 [root] INFO: Song:The New Age Of EXO (2014MAMA亚洲音乐盛典现场) already exists at C:\Users\Jven\Desktop\Music\exo\The New Age Of EXO (2014MAMA亚洲音乐盛典现场).mp3
+2020-05-20 15:43:27 [root] INFO: Song:angel+mama+what is love already exists at C:\Users\Jven\Desktop\Music\exo\angel+mama+what is love.mp3
+2020-05-20 15:43:27 [root] INFO: Song:ShowTime (Live) already exists at C:\Users\Jven\Desktop\Music\exo\ShowTime (Live).mp3
+2020-05-20 15:43:27 [root] INFO: Song:mama orchestral inst already exists at C:\Users\Jven\Desktop\Music\exo\mama orchestral inst.mp3
+2020-05-20 15:43:27 [root] INFO: Song:Growl (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\Growl (原版伴奏).mp3
+2020-05-20 15:43:27 [root] INFO: Song:On the snow (2015 Comeback Showcase Sing For You现场) already exists at C:\Users\Jven\Desktop\Music\exo\On the snow (2015 Comeback Showcase Sing For You现场).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Lady Luck (KTV版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\Lady Luck (KTV版伴奏).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Push Harder already exists at C:\Users\Jven\Desktop\Music\exo\Best of USG, Vol. 2\Push Harder.mp3
+2020-05-20 15:43:27 [root] INFO: Song:Heart Attack (2014世界巡回THELOSTPLANET演出会日本东京站) already exists at C:\Users\Jven\Desktop\Music\exo\Heart Attack (2014世界巡回THELOSTPLANET演出会日本东京站).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Mirotic already exists at C:\Users\Jven\Desktop\Music\exo\Mirotic.mp3
+2020-05-20 15:43:27 [root] INFO: Song:create your smart style already exists at C:\Users\Jven\Desktop\Music\exo\create your smart style.mp3
+2020-05-20 15:43:27 [root] INFO: Song:Bonafide[feat. Hieghts & Kc] already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Bonafide[feat. Hieghts & Kc].flac
+2020-05-20 15:43:27 [root] INFO: Song:중독 (2014 MAMA亚洲音乐盛典现场) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (2014 MAMA亚洲音乐盛典现场).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Two Moon (中韩混减版) already exists at C:\Users\Jven\Desktop\Music\exo\Two Moon (中韩混减版).mp3
+2020-05-20 15:43:27 [root] INFO: Song:Heart Attack (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\Heart Attack (纯音乐).mp3
+2020-05-20 15:43:27 [root] INFO: Song:What If.. (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\What If.. (纯音乐).mp3
+2020-05-20 15:43:32 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=18
+2020-05-20 15:43:32 [root] INFO: Song:上瘾+Lucky (2015第24届首尔歌谣大赏现场) already exists at C:\Users\Jven\Desktop\Music\exo\上瘾+Lucky (2015第24届首尔歌谣大赏现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:아직도 어두운 밤인가봐 (不朽的名曲现场) already exists at C:\Users\Jven\Desktop\Music\exo\아직도 어두운 밤인가봐 (不朽的名曲现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Why So Serious (Live) already exists at C:\Users\Jven\Desktop\Music\exo\Why So Serious (Live).mp3
+2020-05-20 15:43:32 [root] INFO: Song:3.6.5 (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\3.6.5 (纯音乐).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Dvs Freestyle already exists at C:\Users\Jven\Desktop\Music\exo\Hip Hop Ain't Dead\Dvs Freestyle.flac
+2020-05-20 15:43:32 [root] INFO: Song:自我介绍 (演唱会版) already exists at C:\Users\Jven\Desktop\Music\exo\自我介绍 (演唱会版).mp3
+2020-05-20 15:43:32 [root] INFO: Song:CALL ME BABY (2015 Mnet M!CountDown现场) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (2015 Mnet M!CountDown现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:she's so dangerous (2015首尔二巡演唱会) already exists at C:\Users\Jven\Desktop\Music\exo\she's so dangerous (2015首尔二巡演唱会).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Unfair (2015 Comeback Showcase Sing For You现场) already exists at C:\Users\Jven\Desktop\Music\exo\Unfair (2015 Comeback Showcase Sing For You现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Heart Attack (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\Heart Attack (原版伴奏).mp3
+2020-05-20 15:43:32 [root] INFO: Song:my lady 时礼鹿 混音 already exists at C:\Users\Jven\Desktop\Music\exo\my lady 时礼鹿 混音.mp3
+2020-05-20 15:43:32 [root] INFO: Song:Unfair (2015 KBS音乐银行现场) already exists at C:\Users\Jven\Desktop\Music\exo\Unfair (2015 KBS音乐银行现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:上瘾+Lucky (2015 KBS音乐银行现场) already exists at C:\Users\Jven\Desktop\Music\exo\上瘾+Lucky (2015 KBS音乐银行现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:A Song For You (Live) already exists at C:\Users\Jven\Desktop\Music\exo\A Song For You (Live).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Sabor a mi (墨西哥演唱会现场版) already exists at C:\Users\Jven\Desktop\Music\exo\Sabor a mi (墨西哥演唱会现场版).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Missing You (Live) already exists at C:\Users\Jven\Desktop\Music\exo\Missing You (Live).mp3
+2020-05-20 15:43:32 [root] INFO: Song:playboy (Live) already exists at C:\Users\Jven\Desktop\Music\exo\playboy (Live).mp3
+2020-05-20 15:43:32 [root] INFO: Song:十二月的奇迹 (Miracles In December Live) already exists at C:\Users\Jven\Desktop\Music\exo\十二月的奇迹 (Miracles In December Live).mp3
+2020-05-20 15:43:32 [root] INFO: Song:중독 (2014快乐大本营现场) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (2014快乐大本营现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:m (迷你歌曲串烧) already exists at C:\Users\Jven\Desktop\Music\exo\m (迷你歌曲串烧).mp3
+2020-05-20 15:43:32 [root] INFO: Song:XOXO (2015 EXO-L Japan Fan Meeting现场) already exists at C:\Users\Jven\Desktop\Music\exo\XOXO (2015 EXO-L Japan Fan Meeting现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Look At Me (2015首尔演唱会) already exists at C:\Users\Jven\Desktop\Music\exo\Look At Me (2015首尔演唱会).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Call Me Baby+Love Me Right (2015 SBS歌谣大战现场) already exists at C:\Users\Jven\Desktop\Music\exo\Call Me Baby+Love Me Right (2015 SBS歌谣大战现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Growl Food Ver @ Sukira already exists at C:\Users\Jven\Desktop\Music\exo\Growl Food Ver @ Sukira.mp3
+2020-05-20 15:43:32 [root] INFO: Song:Call Me Baby+Growl (Live) already exists at C:\Users\Jven\Desktop\Music\exo\Call Me Baby+Growl (Live).mp3
+2020-05-20 15:43:32 [root] INFO: Song:너의 세상으로 already exists at C:\Users\Jven\Desktop\Music\exo\너의 세상으로.mp3
+2020-05-20 15:43:32 [root] INFO: Song:3.6.5 (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\3.6.5 (原版伴奏).mp3
+2020-05-20 15:43:32 [root] INFO: Song:Reflection D.O Su Ho already exists at C:\Users\Jven\Desktop\Music\exo\Reflection D.O Su Ho.mp3
+2020-05-20 15:43:32 [root] INFO: Song:Sing For You+LOVE ME RIGHT (2016韩国第30届金唱片大赏现场) already exists at C:\Users\Jven\Desktop\Music\exo\Sing For You+LOVE ME RIGHT (2016韩国第30届金唱片大赏现场).mp3
+2020-05-20 15:43:32 [root] INFO: Song:CALL ME BABY (2015韩国ONE K Concert) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (2015韩国ONE K Concert).mp3
+2020-05-20 15:43:34 [root] INFO: Song:CALL ME BABY (叫我) crawled
+2020-05-20 15:43:40 [root] INFO: Song:CALL ME BABY (叫我) downloaded to C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\CALL ME BABY (叫我).flac
+2020-05-20 15:43:40 [root] INFO: Lyrics:CALL ME BABY (叫我) downloaded to C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' (中文版))\CALL ME BABY (叫我).txt
+2020-05-20 15:43:41 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=19
+2020-05-20 15:43:41 [root] INFO: Song:my answer is you (2015二巡首尔站现场) already exists at C:\Users\Jven\Desktop\Music\exo\my answer is you (2015二巡首尔站现场).mp3
+2020-05-20 15:43:41 [root] INFO: Song:call me baby (演唱会版) already exists at C:\Users\Jven\Desktop\Music\exo\call me baby (演唱会版).mp3
+2020-05-20 15:43:41 [root] INFO: Song:k vs britney spears already exists at C:\Users\Jven\Desktop\Music\exo\k vs britney spears.mp3
+2020-05-20 15:43:41 [root] INFO: Song:组合吧浙江分会 already exists at C:\Users\Jven\Desktop\Music\exo\组合吧浙江分会.mp3
+2020-05-20 15:43:41 [root] INFO: Song:Sing For You (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\Sing For You (纯音乐).mp3
+2020-05-20 15:43:41 [root] INFO: Song:CALL ME BABY (2015 MBC New Life For Children现场) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (2015 MBC New Life For Children现场).mp3
+2020-05-20 15:43:41 [root] INFO: Song:序曲+上瘾 (overdose) already exists at C:\Users\Jven\Desktop\Music\exo\序曲+上瘾 (overdose).mp3
+2020-05-20 15:43:41 [root] INFO: Song:Lucky (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\Lucky (原版伴奏).mp3
+2020-05-20 15:43:41 [root] INFO: Song:my answer is you (2015首尔二巡演唱会) already exists at C:\Users\Jven\Desktop\Music\exo\my answer is you (2015首尔二巡演唱会).mp3
+2020-05-20 15:43:41 [root] INFO: Song:Lucky already exists at C:\Users\Jven\Desktop\Music\exo\Lucky.mp3
+2020-05-20 15:43:41 [root] INFO: Song:EL DORADO (2015 EXO PLANET #2 The EXO'luXion In Seoul现场) already exists at C:\Users\Jven\Desktop\Music\exo\EL DORADO (2015 EXO PLANET #2 The EXO'luXion In Seoul现场).mp3
+2020-05-20 15:43:41 [root] INFO: Song:Call Me Baby+Love Me Right (2015 KBS歌谣大祝祭现场) already exists at C:\Users\Jven\Desktop\Music\exo\Call Me Baby+Love Me Right (2015 KBS歌谣大祝祭现场).mp3
+2020-05-20 15:43:41 [root] INFO: Song:sabor a mi already exists at C:\Users\Jven\Desktop\Music\exo\sabor a mi.mp3
+2020-05-20 15:43:41 [root] INFO: Song:Open Arms (自制版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\Open Arms (自制版伴奏).mp3
+2020-05-20 15:43:41 [root] INFO: Song:经典金曲串烧 already exists at C:\Users\Jven\Desktop\Music\exo\经典金曲串烧.mp3
+2020-05-20 15:43:41 [root] INFO: Song:나비소녀 (Don`t Go) (2015 EXO PLANET #2 The EXO'luXion In Seoul现场) already exists at C:\Users\Jven\Desktop\Music\exo\나비소녀 (Don`t Go) (2015 EXO PLANET #2 The EXO'luXion In Seoul现场).mp3
+2020-05-20 15:43:41 [root] INFO: Song:Black Pearl already exists at C:\Users\Jven\Desktop\Music\exo\Black Pearl.mp3
+2020-05-20 15:43:41 [root] INFO: Song:Open Arms (2013KBS歌谣大祝祭现场) already exists at C:\Users\Jven\Desktop\Music\exo\Open Arms (2013KBS歌谣大祝祭现场).mp3
+2020-05-20 15:43:41 [root] INFO: Song:CALL ME BABY (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:41 [root] INFO: Song:Wolf-The Legend Begins (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\Wolf-The Legend Begins (原版伴奏).mp3
+2020-05-20 15:43:41 [root] INFO: Song:十二月的奇迹 (Miracles In December) (Live) already exists at C:\Users\Jven\Desktop\Music\exo\十二月的奇迹 (Miracles In December) (Live).mp3
+2020-05-20 15:43:41 [root] INFO: Song:狼与美女 (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\狼与美女 (纯音乐).mp3
+2020-05-20 15:43:41 [root] INFO: Song:늑대와 미녀 (Wolf) (Areia Kpop Remix版) already exists at C:\Users\Jven\Desktop\Music\exo\늑대와 미녀 (Wolf) (Areia Kpop Remix版).mp3
+2020-05-20 15:43:41 [root] INFO: Song:CALL ME BABY (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (原版伴奏).mp3
+2020-05-20 15:43:41 [root] INFO: Song:Unfair -2015 MBC音乐中心现场 (Live) already exists at C:\Users\Jven\Desktop\Music\exo\Unfair -2015 MBC音乐中心现场 (Live).mp3
+2020-05-20 15:43:41 [root] INFO: Song:Hawak Kamay (2013 Dream K-Pop Fantasy演唱会) already exists at C:\Users\Jven\Desktop\Music\exo\Hawak Kamay (2013 Dream K-Pop Fantasy演唱会).mp3
+2020-05-20 15:43:41 [root] INFO: Song:EXODUS (2015 MBC音乐中心现场) already exists at C:\Users\Jven\Desktop\Music\exo\EXODUS (2015 MBC音乐中心现场).mp3
+2020-05-20 15:43:41 [root] INFO: Song:The Star (星) already exists at C:\Users\Jven\Desktop\Music\exo\The Star (星).mp3
+2020-05-20 15:43:41 [root] INFO: Song:Thunder (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\Thunder (纯音乐).mp3
+2020-05-20 15:43:41 [root] INFO: Song:Lightsaber (KTV版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\Lightsaber (KTV版伴奏).mp3
+2020-05-20 15:43:44 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=20
+2020-05-20 15:43:44 [root] INFO: Song:MY ANSWER (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\MY ANSWER (原版伴奏).mp3
+2020-05-20 15:43:44 [root] INFO: Song:중독 (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:XOXO (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\XOXO (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:Lucky (纯音乐) already exists at C:\Users\Jven\Desktop\Music\exo\Lucky (纯音乐).mp3
+2020-05-20 15:43:44 [root] INFO: Song:EL DORADO (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\EL DORADO (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:HURT (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\HURT (原版伴奏).mp3
+2020-05-20 15:43:44 [root] INFO: Song:PLAYBOY (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\PLAYBOY (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:중독 (Areia Kpop Remix版) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (Areia Kpop Remix版).mp3
+2020-05-20 15:43:44 [root] INFO: Song:Black Pearl (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\Black Pearl (原版伴奏).mp3
+2020-05-20 15:43:44 [root] INFO: Song:첫 눈 (2015 EXO PLANET #2 The EXO'luXion In Seoul现场) already exists at C:\Users\Jven\Desktop\Music\exo\첫 눈 (2015 EXO PLANET #2 The EXO'luXion In Seoul现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:중독 (2014 Mnet M!CountDown现场) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (2014 Mnet M!CountDown现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:PLAYBOY (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\PLAYBOY (原版伴奏).mp3
+2020-05-20 15:43:44 [root] INFO: Song:약속(EXO 2014) (2015 EXO PLANET #2 The EXO'luXion In Seoul现场) already exists at C:\Users\Jven\Desktop\Music\exo\약속(EXO 2014) (2015 EXO PLANET #2 The EXO'luXion In Seoul现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:Sing For You (2015 KBS音乐银行现场) already exists at C:\Users\Jven\Desktop\Music\exo\Sing For You (2015 KBS音乐银行现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:EXODUS (2015 SBS人气歌谣现场) already exists at C:\Users\Jven\Desktop\Music\exo\EXODUS (2015 SBS人气歌谣现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:EXODUS (2015 Tokyo EXO PLANET #2-The EXO'luXion现场) already exists at C:\Users\Jven\Desktop\Music\exo\EXODUS (2015 Tokyo EXO PLANET #2-The EXO'luXion现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:중독 (2014 KBS音乐银行现场) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (2014 KBS音乐银行现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:LOVE ME RIGHT (2015韩国ONE K Concert现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT (2015韩国ONE K Concert现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:CALL ME BABY (2015 MBC音乐中心现场) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (2015 MBC音乐中心现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:중독 (2014 MBC音乐中心现场) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (2014 MBC音乐中心现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:LOVE ME RIGHT (2015 韩国DMZ和平演唱会) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT (2015 韩国DMZ和平演唱会).mp3
+2020-05-20 15:43:44 [root] INFO: Song:CALL ME BABY (自制版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (自制版伴奏).mp3
+2020-05-20 15:43:44 [root] INFO: Song:Lucky (2015亚洲音乐节现场) already exists at C:\Users\Jven\Desktop\Music\exo\Lucky (2015亚洲音乐节现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:LOVE ME RIGHT (2015 KBS柳熙烈的写生簿现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT (2015 KBS柳熙烈的写生簿现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:CALL ME BABY (2015 SBS MTV The Show现场) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (2015 SBS MTV The Show现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:피터팬(Peter Pan) (2016 EXO PLANET #2 The EXO'luXion In Seoul现场) already exists at C:\Users\Jven\Desktop\Music\exo\피터팬(Peter Pan) (2016 EXO PLANET #2 The EXO'luXion In Seoul现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:LOVE ME RIGHT (2015韩国d超级演唱会) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT (2015韩国d超级演唱会).mp3
+2020-05-20 15:43:44 [root] INFO: Song:중독 (2014第16届中韩歌友会现场) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (2014第16届中韩歌友会现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:LOVE ME RIGHT (2015 Comeback Showcase Sing For You现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT (2015 Comeback Showcase Sing For You现场).mp3
+2020-05-20 15:43:44 [root] INFO: Song:약속 (2015上海演唱会) already exists at C:\Users\Jven\Desktop\Music\exo\약속 (2015上海演唱会).mp3
+2020-05-20 15:43:45 [root] INFO: Song:嗜 (Obsession) crawled
+2020-05-20 15:43:51 [root] INFO: Song:嗜 (Obsession) downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\嗜 (Obsession).flac
+2020-05-20 15:43:51 [root] INFO: Lyrics:嗜 (Obsession) downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\嗜 (Obsession).txt
+2020-05-20 15:43:53 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=21
+2020-05-20 15:43:53 [root] INFO: Song:피터팬 already exists at C:\Users\Jven\Desktop\Music\exo\피터팬.mp3
+2020-05-20 15:43:53 [root] INFO: Song:중독 (2014 SBS人气歌谣现场) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (2014 SBS人气歌谣现场).mp3
+2020-05-20 15:43:53 [root] INFO: Song:Sing For You (2015 SBS人气歌谣现场) already exists at C:\Users\Jven\Desktop\Music\exo\Sing For You (2015 SBS人气歌谣现场).mp3
+2020-05-20 15:43:53 [root] INFO: Song:LOVE ME RIGHT (2015亚洲音乐节现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT (2015亚洲音乐节现场).mp3
+2020-05-20 15:43:53 [root] INFO: Song:FIRST LOVE (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\FIRST LOVE (原版伴奏).mp3
+2020-05-20 15:43:53 [root] INFO: Song:Black Pearl (KTV版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\Black Pearl (KTV版伴奏).mp3
+2020-05-20 15:43:53 [root] INFO: Song:LOVE ME RIGHT (原版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT (原版伴奏).mp3
+2020-05-20 15:43:53 [root] INFO: Song:CALL ME BABY (2015 MBC Music Show Champion现场) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (2015 MBC Music Show Champion现场).mp3
+2020-05-20 15:43:53 [root] INFO: Song:으르렁 (Live) already exists at C:\Users\Jven\Desktop\Music\exo\으르렁 (Live).mp3
+2020-05-20 15:43:53 [root] INFO: Song:Sing For You (2015 Comeback Showcase Sing For You现场) already exists at C:\Users\Jven\Desktop\Music\exo\Sing For You (2015 Comeback Showcase Sing For You现场).mp3
+2020-05-20 15:43:53 [root] INFO: Song:LOVE ME RIGHT (2015 KBS音乐银行现场) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT (2015 KBS音乐银行现场).mp3
+2020-05-20 15:43:53 [root] INFO: Song:중독 (Live) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (Live).mp3
+2020-05-20 15:43:53 [root] INFO: Song:Sing For You (预告版) already exists at C:\Users\Jven\Desktop\Music\exo\Sing For You (预告版).mp3
+2020-05-20 15:43:53 [root] INFO: Song:LOVE ME RIGHT (KTV版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT (KTV版伴奏).mp3
+2020-05-20 15:43:53 [root] INFO: Song:Peter Pan (Live) already exists at C:\Users\Jven\Desktop\Music\exo\Peter Pan (Live).flac
+2020-05-20 15:43:53 [root] INFO: Song:EXODUS (KTV版伴奏) already exists at C:\Users\Jven\Desktop\Music\exo\EXODUS (KTV版伴奏).mp3
+2020-05-20 15:43:53 [root] INFO: Song:CALL ME BABY (2015 KBS音乐银行现场) already exists at C:\Users\Jven\Desktop\Music\exo\CALL ME BABY (2015 KBS音乐银行现场).mp3
+2020-05-20 15:43:53 [root] INFO: Song:SM BRING THE BOYS OUT already exists at C:\Users\Jven\Desktop\Music\exo\SM BRING THE BOYS OUT.mp3
+2020-05-20 15:43:53 [root] INFO: Song:임과 함께 (Live) already exists at C:\Users\Jven\Desktop\Music\exo\임과 함께 (Live).mp3
+2020-05-20 15:43:53 [root] INFO: Song:중독 (2014 SBS Dream Concert Live) already exists at C:\Users\Jven\Desktop\Music\exo\중독 (2014 SBS Dream Concert Live).mp3
+2020-05-20 15:43:53 [root] INFO: Song:Power already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\Power.flac
+2020-05-20 15:43:53 [root] INFO: Song:疯语者 (Going Crazy) already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\疯语者 (Going Crazy).flac
+2020-05-20 15:43:53 [root] INFO: Song:梦回暮夜 (Walk On Memories) already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\梦回暮夜 (Walk On Memories).flac
+2020-05-20 15:43:53 [root] INFO: Song:寒噤 (Chill) already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\寒噤 (Chill).flac
+2020-05-20 15:43:53 [root] INFO: Song:指语 (Touch It) already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\指语 (Touch It).flac
+2020-05-20 15:43:53 [root] INFO: Song:C乐章 (Diamond) already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\C乐章 (Diamond).flac
+2020-05-20 15:43:53 [root] INFO: Song:我加你等于永远 (Forever) already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\我加你等于永远 (Forever).flac
+2020-05-20 15:43:53 [root] INFO: Song:可爱·可恶 (What U do?) already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\可爱·可恶 (What U do).flac
+2020-05-20 15:43:53 [root] INFO: Song:Ko Ko Bop already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\Ko Ko Bop.flac
+2020-05-20 15:43:53 [root] INFO: Song:Sweet Lies already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\Sweet Lies.flac
+2020-05-20 15:43:54 [scrapy.extensions.logstats] INFO: Crawled 43 pages (at 17 pages/min), scraped 10 items (at 4 items/min)
+2020-05-20 15:43:56 [root] INFO: crawling https://www.91flac.com/singer/38578/song?page=22
+2020-05-20 15:43:56 [root] INFO: Song:破风 (The Eve) already exists at C:\Users\Jven\Desktop\Music\exo\The Power of Music - The 4th Album Repackage\破风 (The Eve).flac
+2020-05-20 15:43:56 [root] INFO: Song:Why Did You Do It already exists at C:\Users\Jven\Desktop\Music\exo\Why Did You Do It.mp3
+2020-05-20 15:43:56 [root] INFO: Song:Do Or Die already exists at C:\Users\Jven\Desktop\Music\exo\Do Or Die.mp3
+2020-05-20 15:43:56 [root] INFO: Song:Why Did You Do It already exists at C:\Users\Jven\Desktop\Music\exo\Why Did You Do It.mp3
+2020-05-20 15:43:56 [root] INFO: Song:Why Did You Do It already exists at C:\Users\Jven\Desktop\Music\exo\Why Did You Do It.mp3
+2020-05-20 15:43:56 [root] INFO: Song:Why Did You Do It already exists at C:\Users\Jven\Desktop\Music\exo\Why Did You Do It.mp3
+2020-05-20 15:43:56 [root] INFO: Song:Call Me Baby already exists at C:\Users\Jven\Desktop\Music\exo\Call Me Baby.mp3
+2020-05-20 15:43:56 [root] INFO: Song:Run This (Live) already exists at C:\Users\Jven\Desktop\Music\exo\2017 SBS가요대전 Live (2017 SBS歌谣大战 合辑)\Run This (Live).mp3
+2020-05-20 15:43:56 [root] INFO: Song:new track (Live) already exists at C:\Users\Jven\Desktop\Music\exo\new track (Live).mp3
+2020-05-20 15:43:56 [root] INFO: Song:Run This already exists at C:\Users\Jven\Desktop\Music\exo\Coming Over\Run This.mp3
+2020-05-20 15:43:56 [root] INFO: Song:TACTIX already exists at C:\Users\Jven\Desktop\Music\exo\Coming Over\TACTIX.mp3
+2020-05-20 15:43:56 [root] INFO: Song:Coming Over already exists at C:\Users\Jven\Desktop\Music\exo\Coming Over\Coming Over.mp3
+2020-05-20 15:43:59 [root] INFO: Song:彼得潘 crawled
+2020-05-20 15:44:05 [root] INFO: Song:彼得潘 downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\彼得潘.flac
+2020-05-20 15:44:05 [root] INFO: Lyrics:彼得潘 downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\彼得潘.txt
+2020-05-20 15:44:11 [root] INFO: Song:咆哮 crawled
+2020-05-20 15:44:15 [root] INFO: Song:咆哮 downloaded to C:\Users\Jven\Desktop\Music\exo\2014湖南卫视元宵喜乐会\咆哮.mp3
+2020-05-20 15:44:15 [root] INFO: Lyrics:咆哮 downloaded to C:\Users\Jven\Desktop\Music\exo\2014湖南卫视元宵喜乐会\咆哮.txt
+2020-05-20 15:44:15 [root] INFO: Song:Sing For You crawled
+2020-05-20 15:44:22 [root] INFO: Song:Sing For You downloaded to C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\Sing For You.flac
+2020-05-20 15:44:22 [root] INFO: Lyrics:Sing For You downloaded to C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\Sing For You.txt
+2020-05-20 15:44:27 [root] INFO: Song:LOVE ME RIGHT crawled
+2020-05-20 15:44:33 [root] INFO: Song:LOVE ME RIGHT downloaded to C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\LOVE ME RIGHT.flac
+2020-05-20 15:44:33 [root] INFO: Lyrics:LOVE ME RIGHT downloaded to C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\LOVE ME RIGHT.txt
+2020-05-20 15:44:34 [root] INFO: Song:Trouble crawled
+2020-05-20 15:44:38 [root] INFO: Song:Trouble downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\Trouble.flac
+2020-05-20 15:44:38 [root] INFO: Lyrics:Trouble downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\Trouble.txt
+2020-05-20 15:44:50 [root] INFO: Song:蝴蝶效应 (Butterfly Effect) crawled
+2020-05-20 15:44:55 [root] INFO: Song:蝴蝶效应 (Butterfly Effect) downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\蝴蝶效应 (Butterfly Effect).flac
+2020-05-20 15:44:55 [root] INFO: Lyrics:蝴蝶效应 (Butterfly Effect) downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\蝴蝶效应 (Butterfly Effect).txt
+2020-05-20 15:44:55 [scrapy.extensions.logstats] INFO: Crawled 57 pages (at 14 pages/min), scraped 16 items (at 6 items/min)
+2020-05-20 15:44:55 [root] INFO: Song:닿은 순간 (Ooh La La La) crawled
+2020-05-20 15:45:01 [root] INFO: Song:닿은 순간 (Ooh La La La) downloaded to C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\닿은 순간 (Ooh La La La).flac
+2020-05-20 15:45:01 [root] INFO: Lyrics:닿은 순간 (Ooh La La La) downloaded to C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\닿은 순간 (Ooh La La La).txt
+2020-05-20 15:45:13 [root] INFO: Song:Lucky crawled
+2020-05-20 15:45:19 [root] INFO: Song:Lucky downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\Lucky.flac
+2020-05-20 15:45:19 [root] INFO: Lyrics:Lucky downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\Lucky.txt
+2020-05-20 15:45:20 [root] INFO: Song:约定(EXO 2014) crawled
+2020-05-20 15:45:26 [root] INFO: Song:约定(EXO 2014) downloaded to C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\约定(EXO 2014).flac
+2020-05-20 15:45:26 [root] INFO: Lyrics:约定(EXO 2014) downloaded to C:\Users\Jven\Desktop\Music\exo\LOVE ME RIGHT - The 2nd Album Repackage\约定(EXO 2014).txt
+2020-05-20 15:45:31 [root] INFO: Song:初雪 crawled
+2020-05-20 15:45:37 [root] INFO: Song:初雪 downloaded to C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (十二月的奇迹)\初雪.flac
+2020-05-20 15:45:37 [root] INFO: Lyrics:初雪 downloaded to C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (十二月的奇迹)\初雪.txt
+2020-05-20 15:45:38 [root] INFO: Song:나비소녀(Don't Go) crawled
+2020-05-20 15:45:43 [root] INFO: Song:나비소녀(Don't Go) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\나비소녀(Don't Go).flac
+2020-05-20 15:45:43 [root] INFO: Lyrics:나비소녀(Don't Go) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\나비소녀(Don't Go).txt
+2020-05-20 15:45:48 [root] INFO: Song:Sing For You crawled
+2020-05-20 15:46:01 [root] INFO: Song:Sing For You downloaded to C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\Sing For You.flac
+2020-05-20 15:46:01 [root] INFO: Lyrics:Sing For You already exists at C:\Users\Jven\Desktop\Music\exo\SING FOR YOU - 겨울 스페셜 앨범， 2015 (为你而唱 （韩文版）)\Sing For You.txt
+2020-05-20 15:46:01 [scrapy.extensions.logstats] INFO: Crawled 69 pages (at 12 pages/min), scraped 22 items (at 6 items/min)
+2020-05-20 15:46:02 [root] INFO: Song:Ko Ko Bop crawled
+2020-05-20 15:46:05 [root] INFO: Song:Ko Ko Bop downloaded to C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Ko Ko Bop.flac
+2020-05-20 15:46:05 [root] INFO: Lyrics:Ko Ko Bop downloaded to C:\Users\Jven\Desktop\Music\exo\EXO PLANET #4 –The EℓyXiOn (dot)– Live Album\Ko Ko Bop.txt
+2020-05-20 15:46:10 [root] INFO: Song:十二月的奇迹 (Miracles in December) crawled
+2020-05-20 15:46:17 [root] INFO: Song:十二月的奇迹 (Miracles in December) downloaded to C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (十二月的奇迹)\十二月的奇迹 (Miracles in December).flac
+2020-05-20 15:46:17 [root] INFO: Lyrics:十二月的奇迹 (Miracles in December) downloaded to C:\Users\Jven\Desktop\Music\exo\겨울 스페셜 앨범 '12월의 기적 (Miracles in December)' (十二月的奇迹)\十二月的奇迹 (Miracles in December).txt
+2020-05-20 15:46:18 [root] INFO: Song:24/7 crawled
+2020-05-20 15:46:23 [root] INFO: Song:24/7 downloaded to C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\247.flac
+2020-05-20 15:46:23 [root] INFO: Lyrics:24/7 downloaded to C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\247.txt
+2020-05-20 15:46:29 [root] INFO: Song:蝴蝶少女 (Don't go) crawled
+2020-05-20 15:46:34 [root] INFO: Song:蝴蝶少女 (Don't go) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\蝴蝶少女 (Don't go).flac
+2020-05-20 15:46:34 [root] INFO: Lyrics:蝴蝶少女 (Don't go) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album XOXO (KISS&HUG)\蝴蝶少女 (Don't go).txt
+2020-05-20 15:46:34 [root] INFO: Song:CALL ME BABY crawled
+2020-05-20 15:46:40 [root] INFO: Song:CALL ME BABY downloaded to C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\CALL ME BABY.flac
+2020-05-20 15:46:40 [root] INFO: Lyrics:CALL ME BABY downloaded to C:\Users\Jven\Desktop\Music\exo\The 2nd Album 'EXODUS' (EXO正规二辑'EXODUS' （韩文版）)\CALL ME BABY.txt
+2020-05-20 15:46:46 [root] INFO: Song:Tempo crawled
+2020-05-20 15:46:56 [root] INFO: Song:Tempo downloaded to C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\Tempo.flac
+2020-05-20 15:46:56 [root] INFO: Lyrics:Tempo downloaded to C:\Users\Jven\Desktop\Music\exo\DON'T MESS UP MY TEMPO – The 5th Album\Tempo.txt
+2020-05-20 15:46:56 [scrapy.extensions.logstats] INFO: Crawled 81 pages (at 12 pages/min), scraped 28 items (at 6 items/min)
+2020-05-20 15:46:56 [root] INFO: Song:전야 crawled
+2020-05-20 15:47:03 [root] INFO: Song:전야 downloaded to C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\전야.flac
+2020-05-20 15:47:03 [root] INFO: Lyrics:전야 downloaded to C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\전야.txt
+2020-05-20 15:47:07 [root] INFO: Song:Baby, Don't Cry crawled
+2020-05-20 15:47:12 [root] INFO: Song:Baby, Don't Cry downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\Baby, Don't Cry.flac
+2020-05-20 15:47:12 [root] INFO: Lyrics:Baby, Don't Cry downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\Baby, Don't Cry.txt
+2020-05-20 15:47:13 [root] INFO: Song:Obsession crawled
+2020-05-20 15:47:17 [root] INFO: Song:Obsession downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\Obsession.flac
+2020-05-20 15:47:17 [root] INFO: Lyrics:Obsession downloaded to C:\Users\Jven\Desktop\Music\exo\OBSESSION - The 6th Album\Obsession.txt
+2020-05-20 15:47:22 [root] INFO: Song:咆哮(Growl) crawled
+2020-05-20 15:47:28 [root] INFO: Song:咆哮(Growl) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\咆哮(Growl).flac
+2020-05-20 15:47:28 [root] INFO: Lyrics:咆哮(Growl) downloaded to C:\Users\Jven\Desktop\Music\exo\The 1st Album 'XOXO (Kiss&Hug)' Repackage\咆哮(Growl).txt
+2020-05-20 15:47:28 [root] INFO: Song:Love Shot crawled
+2020-05-20 15:47:33 [root] INFO: Song:Love Shot downloaded to C:\Users\Jven\Desktop\Music\exo\LOVE SHOT – The 5th Album Repackage\Love Shot.flac
+2020-05-20 15:47:33 [root] INFO: Lyrics:Love Shot downloaded to C:\Users\Jven\Desktop\Music\exo\LOVE SHOT – The 5th Album Repackage\Love Shot.txt
+2020-05-20 15:47:35 [root] INFO: Song:Ko Ko Bop crawled
+2020-05-20 15:47:41 [root] INFO: Song:Ko Ko Bop downloaded to C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\Ko Ko Bop.flac
+2020-05-20 15:47:41 [root] INFO: Lyrics:Ko Ko Bop downloaded to C:\Users\Jven\Desktop\Music\exo\THE WAR – The 4th Album\Ko Ko Bop.txt
+2020-05-20 15:47:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-05-20 15:47:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 90641,
+ 'downloader/request_count': 94,
+ 'downloader/request_method_count/GET': 59,
+ 'downloader/request_method_count/POST': 35,
+ 'downloader/response_bytes': 670494,
+ 'downloader/response_count': 94,
+ 'downloader/response_status_count/200': 92,
+ 'downloader/response_status_count/302': 2,
+ 'elapsed_time_seconds': 407.003963,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 5, 20, 7, 47, 41, 261168),
+ 'item_scraped_count': 34,
+ 'log_count/INFO': 751,
+ 'request_depth_max': 23,
+ 'response_received_count': 92,
+ 'scheduler/dequeued': 94,
+ 'scheduler/dequeued/memory': 94,
+ 'scheduler/enqueued': 94,
+ 'scheduler/enqueued/memory': 94,
+ 'start_time': datetime.datetime(2020, 5, 20, 7, 40, 54, 257205)}
+2020-05-20 15:47:41 [scrapy.core.engine] INFO: Spider closed (finished)
