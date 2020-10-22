@@ -20,8 +20,10 @@ SINGERS = {
     '张震岳': '89',
     'aurora': '120734',
     'Frédéric François Chopin': '15057',
+    '陈奕迅': '143',
+    'MC HotDog': '4',
 }
-SINGER = 'Frédéric François Chopin' # 要爬取的歌手
+SINGER = 'MC HotDog' # 要爬取的歌手
 SITE_URL = 'https://www.91flac.com'
 SINGER_URL = SITE_URL + '/singer/{id}/song'
 LOGIN_URL = SITE_URL + '/login'

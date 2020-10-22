@@ -25,8 +25,6 @@ ITEM_PIPELINES = {
     'flac91.pipelines.DownloadPipeline': 300,
 }
 
-ROBOTSTXT_OBEY = False
-
 # HTTPERROR_ALLOWED_CODES = [419]
 
 DOWNLOAD_ROOT_PATH = r'C:\Users\Jven\Desktop\Music'
